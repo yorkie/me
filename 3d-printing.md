@@ -40,7 +40,7 @@
 另一个则是艺术陶瓷方向，由于打印机通过计算机的精密度可达0.1毫米，所以可以能人之不能，生产一些美观度高，但人工很难达到的陶瓷制品。
 
 ### 可行性
-最后我想说说可行性，3D打印技术并非封闭的科技技术，目前业内已有两款同时开放硬件与软件源的开源3D打印机：<a href="http://www.reprap.org/">RepRap</a>与<a href="https://pwdr.github.com/" target="_blank">Pwdr</a>。  
+最后我想说说可行性，3D打印技术并非封闭的科技技术，目前业内已有两款同时开放硬件与软件源的开源3D打印机：<a href="http://www.reprap.org/">RepRap</a>与<a href="http://pwdr.github.com/" target="_blank">Pwdr</a>。  
 前者(RepRap)是基于塑料的自我复印机，与无机非金属材料关联不大，而第二款打印机，能够让你选择使用SLS还是3DP技术来进行3D打印，而其材料的范围也较广，包括石膏、陶瓷、混凝土甚至糖。
 
 ### 资源
