@@ -3,7 +3,6 @@
 
 void main() {
   
-  int MAX = 20;
   int a[MAX], b[10] = {0}, temp = -1;
   printf("亲，请输入%d个10以内的正整数\n", MAX);
 
