@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>if2</title>
+</head>
+
+<body>
+
+@{
+if(true)
+<p>
+Yeah!
+</p>
+}
+
+</body>
+</html>
+

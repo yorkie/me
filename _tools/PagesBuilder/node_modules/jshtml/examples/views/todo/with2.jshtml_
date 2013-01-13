@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+@with(locals)
+@with(this)
+<html>
+<head>
+<title>@title</title>
+</head>
+
+<body>
+
+<ul>
+@with(locals)
+@for(var numberKey in numberList)
+<li>@numberKey: @numberList[numberKey]</li>
+</ul>
+
+<ul>
+@with(this)
+{
+for(var numberKey in numberList)
+<li>@numberKey: @numberList[numberKey]</li>
+}
+</ul>
+
+</body>
+</html>

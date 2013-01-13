@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>@locals.title</title>
+</head>
+
+<body>
+
+@if(true)
+	<span>
+	@if(true)
+		<span>
+		The outer <span>span</span> tag will be written to the output!
+		</span>
+	else
+		<span>
+		You should not see me!
+		</span>
+
+	<span>
+	Nested tags will be written to the output.
+	</span>
+	</span>
+else
+	<span>
+		You should not see me!
+	</span>
+
+</body>
+</html>

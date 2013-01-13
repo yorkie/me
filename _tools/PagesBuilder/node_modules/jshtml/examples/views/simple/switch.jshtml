@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+
+@{var direction = 'other';}
+@switch(direction) {
+    case 'links':
+    <text>
+Left <-
+    </text>
+    break;
+
+    case 'rechts':
+    <text>
+-> Right
+    </text>
+    break;
+
+    default:
+    <text>
+Iets anders
+    </text>
+    }
+
+</body>
+</html>

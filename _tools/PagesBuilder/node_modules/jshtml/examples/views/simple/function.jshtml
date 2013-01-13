@@ -1,0 +1,26 @@
+@function yeah() {
+	return 'Yeah!';
+}
+@function yeah2() {
+	<p>
+	yeah2
+	</p>
+}
+
+<html>
+<head>
+<title>@locals.title</title>
+</head>
+
+<body>
+
+<p>
+@yeah()
+</p>
+
+@yeah2();
+
+
+
+</body>
+</html>

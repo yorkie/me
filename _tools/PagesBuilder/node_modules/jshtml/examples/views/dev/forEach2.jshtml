@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+@{
+var list = ["a", "b", "c"];
+}
+<html>
+<head>
+<title>forEach2</title>
+</head>
+
+<body>
+
+@list.forEach(function(item){
+<img alt="@item" />
+});
+
+</body>
+</html>
+

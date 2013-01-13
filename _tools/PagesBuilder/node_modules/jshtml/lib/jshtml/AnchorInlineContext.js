@@ -1,0 +1,64 @@
+var util = require("util");
+var assert = require("assert");
+
+
+
+var base = require('./ContextBase');
+module.exports = (function(target){
+
+	util.inherits(target, base);
+
+	target.prototype.categories = base.prototype.categories.concat([
+		"jsMember"
+		, "jsBeginArray"
+		, "jsBeginGroup"
+		, "semicolon"
+		, "default"
+	]);
+
+	target.prototype.onToken = function(token){
+		var JsGroupContext = require('./JsGroupContext');
+		var JsArrayContext = require('./JsArrayContext');
+
+		if(token.index == 0)
+		switch(token.category){
+			case 'semicolon':
+			case 'default':
+			return this.end(token);
+
+			case 'jsBeginGroup':
+			return new JsGroupContext(this, token);
+
+			case 'jsBeginArray':
+			return new JsArrayContext(this, token);
+
+			case 'jsMember':
+			this.echo(token[0]);
+			return this;
+		}
+		
+		return this.end(token);
+	};//onToken
+
+	target.prototype.echo = function(data, state){
+		this.buffer += data;
+	};//echo
+
+	target.prototype.end = function(endToken){
+		if(endToken[0] == ";") this.parent.echo(this.buffer + ";", {});
+		else this.parent.echo('write(' + this.buffer + ');', {});
+		return this.parent;
+	};//end
+
+	return target;
+
+})(function(parent, beginToken){
+	base.call(this, parent, beginToken);
+
+	this.buffer = '';
+
+	this.echo(beginToken[0]);
+});
+
+
+

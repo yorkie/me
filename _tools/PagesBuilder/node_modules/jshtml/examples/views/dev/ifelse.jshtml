@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+
+@if(true) {
+<p>
+Yeah!
+</p>
+}
+else {
+<p>
+Ahhhhh...
+</p>
+}
+
+
+@if(false)
+<p>
+Yeah!
+</p>
+else
+<p>
+Ahhhhh...
+</p>
+
+</body>
+</html>

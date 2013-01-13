@@ -1,0 +1,83 @@
+var util = require("util");
+var assert = require("assert");
+
+
+
+var base = require('./RootContext');
+module.exports = (function(target){
+
+	util.inherits(target, base);
+
+	target.prototype.index = -1;
+	target.prototype.next = function(){
+		this.index++;
+		this.onToken = this.onTokenSteps[this.index];
+		this.categories = this.categoriesSteps[this.index];
+	};
+
+
+	target.prototype.categoriesSteps = [
+		base.prototype.categories.concat([
+			"tagBeginClose"
+		])
+		, base.prototype.categories.concat([
+			"tagBeginOpen"
+			, "tagEnd"
+		])
+	];//categoriesSteps
+
+	target.prototype.onTokenSteps = [
+
+		function(token){
+			switch(token.category){
+				case 'tagBeginClose':
+				this.echo(token[0], {useFilter:true});
+				if(token[1] == '/>') return this.end(token);
+				else {
+					this.next();
+					return this;
+				}
+
+			}
+
+			return base.prototype.onToken.apply(this, arguments);
+		}
+		, function(token){
+			var TagContext = require('./TagContext');
+	
+			switch(token.category){
+				case 'tagBeginOpen':
+				if(this.beginToken[1] == token[1]) return new TagContext(this, token);
+				else{
+					this.echo(token[0], {useFilter:true});
+					return this;
+				}
+
+				case 'tagEnd':
+				this.echo(token[0], {useFilter:true});
+				if(this.beginToken[1] == token[1]) return this.end(token);
+				else return this;
+			}
+
+			return base.prototype.onToken.apply(this, arguments);
+		}
+
+	];//onTokenSteps
+
+
+	return target;
+
+})(function(parent, beginToken){
+
+	base.call(this, parent, beginToken);
+
+	this.echo('{', {});
+	this.suffix = '}';
+	this.echo(beginToken[0], {useFilter:true});
+	this.beginToken = beginToken;
+
+	this.next();
+});
+
+
+

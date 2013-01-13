@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>@locals.title</title>
+<link rel="stylesheet" type="text/css" href="/resources/fonts.css" />
+<link rel="stylesheet" type="text/css" href="/resources/voorstel1.css" />
+</head>
+
+@with(locals.newsLetter)
+<body>
+
+<div id="pageWrapper">
+<div id="leftBackground"></div>
+<div id="rightBackground"></div>
+<div id="maskBackground"></div>
+<div id="logo"></div>
+<div id="link">Kun je deze email niet goed lezen, klik dan <a href="">hier</a></div>
+<div id="slogan"></div>
+
+<div id="welcomeWrapper"><div id="welcome">
+<div id="hello">Hallo, @recipient.firstName</div>
+<div id="subject">dit is de nieuwsbrief van @date</div>
+</div></div>
+
+<div id="wideColumnWrapper">
+
+@with(head)
+<header>
+<img src="@image" alt="@title" />
+<div class="Text">
+<h2>@title</h2>
+<h3>@subTitle</h3>
+</div>
+
+<nav>
+<a href="">Actie &gt;</a>
+</nav>
+</header>
+
+@articles.forEach(function(article, articleIndex) {
+	with(article)
+	<article class="@(articleIndex > 0 ? null : 'First')">
+		@{if(thumbnail)
+			<img src="@thumbnail" class="Thumbnail" alt="@title" />
+			}
+		<h2>@title</h2>
+		<h3>@subTitle</h3>
+		@paragraphs.forEach(function(paragraph, paragraphIndex)	{
+			<p>@paragraph</p>
+		});
+
+	<nav>
+	<a href="">Lees meer &gt;</a>
+	</nav>
+
+	</article>	
+});
+
+
+<!--/div#wideColumnWrapper--></div
+><div id="narrowColumnWrapper">
+
+
+
+<!--/div#narrowColumnWrapper--></div>
+
+<footer>
+
+Wij houden niet van spam. Wel willen we je informeren over onze ontwikkelingenWil je toch geen mail meer ontvangen, klik dan <a href="">hier</a>.
+
+</footer>
+
+</div>
+
+</body>
+
+</html>

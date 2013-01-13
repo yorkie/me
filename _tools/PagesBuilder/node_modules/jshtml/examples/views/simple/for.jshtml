@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Test</title>
+</head>
+
+<body>
+@for(var n = 1; n <= 3; n++ ) {
+    <p>
+@n
+    </p>
+    }
+
+@for(var n = 1; n <= 3; n++ )
+    <p>
+@n
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+@with(locals)
+<html>
+<head>
+    <title>Test</title>
+</head>
+
+<body>
+@if(stoer && lief) {
+    <p>
+	Yeah!
+    </p>
+    }
+
+@if(stoer && lief)
+    <p>
+	Yeah!
+    </p>
+
+@if(false)
+	<img src="@stoer" class="Thumbnail" alt="@lief" />
+	
+
+</body>
+</html>
+

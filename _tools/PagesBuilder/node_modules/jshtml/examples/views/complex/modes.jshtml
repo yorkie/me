@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Test</title>
+</head>
+
+<body>
+@{
+    var tagMode = 'tag-mode';
+
+    <p>@tagMode</p>
+
+    var textMode = 'text-mode';
+    <text>
+    @textMode
+    @{
+        var mode;
+        mode = tagMode;
+
+        <p>
+        @mode
+        @{
+            var message;
+            message = 'in textmode';
+
+            <text>
+            <p>
+            @message
+            </text>
+            
+            message = 'we don\'t have to balance our tags!!!';
+            
+            <text>
+            @message
+            </p>
+            </text>
+
+            <p>
+            <b><a><l><a><n><c><e>
+			<p>
+in tag-mode we only have to balance our start tags!<br>
+			</p>
+			</p>
+            }
+        </p>
+
+        mode = textMode;
+
+        <text>
+        @mode
+        </text>
+        }
+    </text>
+    }
+
+
+</body>
+</html>

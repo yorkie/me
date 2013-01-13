@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+@{
+var list = ["a", "b", "c"];
+}
+<html>
+<head>
+<title>forEach</title>
+</head>
+
+<body>
+
+<ul>
+@list.forEach(function(item){
+<li>@item</li>
+});
+</ul>
+
+</body>
+</html>
+

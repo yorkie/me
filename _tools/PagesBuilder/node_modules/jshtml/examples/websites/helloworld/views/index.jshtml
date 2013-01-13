@@ -1,0 +1,15 @@
+<article>
+
+<h1>@locals.title</h1>
+
+<p>
+@locals.message
+</p>
+
+<ul>
+@locals.list.forEach(function(item, index)	{
+	<li>@item</li>
+});
+</ul>
+
+</article>

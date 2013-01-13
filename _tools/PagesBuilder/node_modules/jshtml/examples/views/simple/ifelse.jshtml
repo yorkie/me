@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+
+@if(locals.stoer && locals.lief) {
+    <p>
+Yeah!
+    </p>
+    }
+else {
+    <p>
+Ahhhhh...
+    </p>
+    }
+
+
+@if(locals.stoer && locals.lief)
+    <p>
+Yeah!
+    </p>
+else
+    <p>
+Ahhhhh...
+    </p>
+
+</body>
+</html>

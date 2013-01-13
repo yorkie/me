@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+@with(locals)
+<html>
+<head>
+<title>@title</title>
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+</header>
+
+<section>
+@if(productList && productList.length) {
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        @for(var productIndex = 0; productIndex < productList.length; productIndex++)   {
+            var product = productList[productIndex];
+            <tr>
+                <td>@(product.name)</td>
+                <td>@(product.price)</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    }
+else{
+    <p>
+    no products found...
+    </p>
+    }
+</section>
+
+<footer>
+</footer>
+
+</div>
+</body>
+</html>

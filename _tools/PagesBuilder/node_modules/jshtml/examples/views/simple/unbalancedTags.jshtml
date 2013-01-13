@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+@with(locals)
+<html>
+<head>
+<title>@title</title>
+</head>
+
+<body>
+
+@productList.forEach(function(product) {
+	with(product)
+	<article>
+	<h1>@name</h1>
+	<img src="/img/prod/@id" alt="@name">
+	<p>
+	price: @price<br>
+	</p>
+	</article>
+});
+
+</body>
+</html>

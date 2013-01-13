@@ -1,0 +1,45 @@
+@with(locals)
+<html>
+
+@with(this)
+<head>
+    <title>@title</title>
+</head>
+
+<body>
+
+
+@with(this)
+<div>
+@with(numberList) {
+    <p>
+@one
+    </p>
+    <p>
+@two
+    </p>
+    <p>
+@three
+    </p>
+}
+</div>
+
+@with(numberList)
+@with({two:'zwei', three:'drei'})
+@with({three:'trois'})
+	<div>
+    <p>
+@one
+    </p>
+    <p>
+@two
+    </p>
+    <p>
+@three
+    </p>
+	</div>
+
+</body>
+
+</html>
+

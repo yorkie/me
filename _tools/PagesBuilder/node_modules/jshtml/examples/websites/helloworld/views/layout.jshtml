@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>@locals.title</title>
+</head>
+
+<body>
+
+@writePartial('header');
+
+@writeBody();
+
+</body>
+</html>

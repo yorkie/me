@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Write</title>
+</head>
+
+<p>
+use @write(content); to write raw content. Please include the semicolon after the
+statement or else the parser will try too write the result of write.
+</p>
+
+<p>
+the parser will translate this:<br />
+
+<pre>
+&lt;a href=""&gt;@write('good');&lt;/a&gt;
+&lt;a href=""&gt;@write('bad')&lt;/a&gt;
+</pre>
+
+into something like this:<br />
+
+<pre>
+write('&lt;a href=""&gt;')
+write('good')
+write('&lt;/a&gt;\n')
+write('&lt;a href=""&gt;')
+write(write('bad'))
+write('&lt;/a&gt;\n')
+</pre>
+
+and the result will be:<br />
+
+<pre>
+<a href="">good</a>
+<a href="">bad</a>
+</pre>
+
+As you can see, the 'bad' syntax does work. It's just less efficient.<br />
+
+</p>
+
+</html>
+
+

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Test</title>
+</head>
+
+<body>
+@{
+var n = 3;
+var m = 3;
+}
+
+@do {
+    <p>
+	@n
+    </p>
+    } while( --n > 0);
+
+@do
+    <p>
+	@m
+    </p>
+while( --m > 0);
+
+</body>
+</html>

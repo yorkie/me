@@ -1,0 +1,36 @@
+var util = require("util");
+var assert = require("assert");
+
+
+
+var base = require('./JsContext');
+module.exports = (function(target){
+
+	util.inherits(target, base);
+
+	target.prototype.categories = base.prototype.categories.concat([
+		"jsEndGroup"
+	]);
+
+	target.prototype.onToken = function(token){
+		switch(token.category){
+			case 'jsEndGroup':
+			this.echo(token[0]);
+			return this.end(token);
+
+			default:
+			return base.prototype.onToken.apply(this, arguments);
+		}
+
+	};//onToken
+
+	return target;
+})(function(parent, beginToken){
+	assert.equal('jsBeginGroup', beginToken.category);
+
+	base.call(this, parent, beginToken);
+
+	this.echo(beginToken[0]);
+});
+
+

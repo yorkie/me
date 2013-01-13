@@ -1,0 +1,9 @@
+@with({title:"Yo"}){
+<html>
+<head>
+<title>@title</title>
+</head>
+<body>
+</body>
+</html>
+}

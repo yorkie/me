@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+@{
+	function yeah() {
+		return '<i>yeah!</i>';
+	}
+	
+	var ok = '<u>ok</u>';
+}
+<html>
+
+<head>
+<title>@locals.title</title>
+</head>
+
+<body>
+
+<h1>Inline mode</h1>
+
+<p>
+look closely and note the difference:
+</p>
+
+<ul>
+	<li>
+	@@yeah<br />
+	@yeah<br />
+	</li>
+
+	<li>
+	@@yeah()<br />
+	@yeah()<br />
+	</li>
+
+	<li>
+	@@yeah;<br />
+	@yeah;<br />
+	</li>
+
+	<li>
+	@@yeah();<br />
+	@yeah();<br />
+	</li>
+
+	<li>
+	@@ok<br />
+	@ok<br />
+	</li>
+
+	<li>
+	@@ok;<br />
+	@ok;<br />
+	</li>
+
+</ul>
+
+</body>
+
+</html>

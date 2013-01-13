@@ -1,0 +1,41 @@
+var util = require("util");
+var assert = require("assert");
+
+
+
+var base = require('./ContextBase');
+module.exports = (function(target){
+
+	util.inherits(target, base);
+
+	target.prototype.categories = base.prototype.categories.concat([
+		"anchor"
+		, "default"
+	]);
+
+	target.prototype.onToken = function(token){
+
+		if(token.index == 0)
+		switch(token.category){
+			case "anchor":
+			this.echo('write(' + JSON.stringify(token[0]) + ');');
+			return this;
+
+			case "default":
+			return this.end();
+		}
+
+		return base.prototype.onToken.apply(this, arguments);
+	};//onToken
+
+
+	return target;
+
+})(function(parent, beginToken){
+	base.call(this, parent, beginToken);
+
+	this.echo('write(' + JSON.stringify(beginToken[0]) + ');');
+});
+
+
+

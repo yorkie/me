@@ -1,0 +1,11 @@
+<article>
+
+<h1>@title</h1>
+
+<ul>
+@words.forEach(function(word)	{
+	<li><a href="/word/@word.id">@word.word</a></li>
+});
+</ul>
+
+</article>
