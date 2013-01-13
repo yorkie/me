@@ -1,1 +1,4 @@
-console.log('This would be the main JS file.');
+
+seajs.use(['core/base'], function (require) {
+  
+});
