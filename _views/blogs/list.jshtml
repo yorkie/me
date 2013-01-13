@@ -1,5 +1,9 @@
-<p>
-	@{
-		var a = "test";
+@section("head"){
+	<link style="" >
+}
+
+<div class="main-body">
+	@foreach() {
+		
 	}
-</p>
+</div>
