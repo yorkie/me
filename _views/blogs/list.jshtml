@@ -1,9 +1,0 @@
-@section("head"){
-	<link style="" >
-}
-
-<div class="main-body">
-	@foreach() {
-		
-	}
-</div>

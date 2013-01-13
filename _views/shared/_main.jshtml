@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		@renderSection("head")
-	</head>
-	<body>
-		@renderBody()
-	</body>
-</html>
