@@ -1,4 +1,0 @@
-[submodule "node_modules/jshtml"]
-
-	path = node_modules/jshtml
-	url = git://github.com/yorkie/jshtml.git

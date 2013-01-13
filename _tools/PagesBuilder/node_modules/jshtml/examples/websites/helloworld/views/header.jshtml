@@ -1,4 +1,0 @@
-<header>
-@writePartial('menu');
-</header>
-

@@ -1,6 +1,0 @@
-{
-	"port":	8080
-	, "server":	"server"
-	, "startupDelay":	5000
-	, "debug":	true
-}
