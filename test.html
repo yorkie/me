@@ -2,8 +2,12 @@
 <html>
 <head>
   <title>test for requirejs</title>
-  <script data-main="javascripts/test_require" src="http://requirejs.org/docs/release/2.1.2/minified/require.js"></script>
+  <!--<script data-main="javascripts/test_require" src="http://requirejs.org/docs/release/2.1.2/minified/require.js"></script>-->
   <!--<script src="https://raw.github.com/arextar/browser-buffer/master/src/browser-buffer.js"></script>-->
+  <script src="/javascripts/lib/sea.js"></script>
+  <script>
+    seajs.use("javascripts/test_require");
+  </script>
 </head>
 <body>
 
