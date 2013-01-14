@@ -4,7 +4,7 @@
   <title>test for requirejs</title>
   <script src="http://requirejs.org/docs/release/2.1.2/minified/require.js"></script>
   <script>
-    define(["https://raw.github.com/arextar/browser-buffer/master/browser-buffer.min.js"], function() {
+    define("main", ["https://raw.github.com/arextar/browser-buffer/master/browser-buffer.min.js"], function() {
       console.log(Buffer);
     });
   </script>
