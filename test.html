@@ -6,6 +6,9 @@
   <!--<script src="https://raw.github.com/arextar/browser-buffer/master/src/browser-buffer.js"></script>-->
   <script src="/javascripts/lib/sea.js"></script>
   <script>
+    seajs.config({
+      preload: ["https://raw.github.com/enginespot/browser-buffer/master/src/browser-buffer.js"]  
+    })
     seajs.use("/javascripts/test_require");
   </script>
 </head>
