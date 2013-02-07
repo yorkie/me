@@ -8,23 +8,24 @@
       fn();
       return (+new Date()) - startDate;
     }
-
-    var Test = {
-      array: [],
+    
+    var arrayForTesting = []
+    
+    var testHandler = {
       ready: function() {
         for (var i=0; i<10000000; i++) {
-          this.array.push(i)
+          arrayForTesting.push(i)
         }
         console.log("Done!")
       },
 
       case1: function() {
-        for (var i=0; i<this.array.length; i++) {
+        for (var i=0; i<arrayForTesting.length; i++) {
           // TODO
         }
       },
       case2: function() {
-        for (var i=0, max=this.array.length; i<max; i++) {
+        for (var i=0, max=arrayForTesting.length; i<max; i++) {
           // TODO
         }
       }
