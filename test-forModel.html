@@ -3,17 +3,16 @@
 <head>
   <meta charset="utf-8">
   <script>
-    function test(fn){
+    function $(fn){
       var startDate = +new Date();
       fn();
       return (+new Date()) - startDate;
     }
     
     var arrayForTesting = []
-    
-    var testHandler = {
-      ready: function() {
-        for (var i=0; i<10000000; i++) {
+    var handler = {
+      ready: function(max) {
+        for (var i=0; i<max; i++) {
           arrayForTesting.push(i)
         }
         console.log("Done!")
