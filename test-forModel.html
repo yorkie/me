@@ -9,9 +9,10 @@
       return (+new Date()) - startDate;
     }
     
-    var arrayForTesting = []
+    var arrayForTesting;
     var handler = {
       ready: function(max) {
+        arrayForTesting = []
         for (var i=0; i<max; i++) {
           arrayForTesting.push(i)
         }
