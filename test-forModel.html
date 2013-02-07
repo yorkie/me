@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <script>
-    function test(fn){
+    function test(fn, context){
       var startDate = +new Date();
-      fn();
+      fn.call(context);
       return (+new Date()) - startDate;
     }
 
