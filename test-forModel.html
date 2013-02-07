@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>
+    function test(fn){
+      var startDate = +new Date();
+      fn();
+      return (+new Date()) - startDate;
+    }
+
+    var Test = {
+      array: []
+      ready: function() {
+        for (var i=0; i<100000; i++) {
+          this.array.push(i)
+        }
+      },
+
+      case1: function() {
+        for (var i=0; i<this.length; i++) {
+          // TODO
+        }
+      },
+      case2: function() {
+        for (var i=0, max=this.length; i<max; i++) {
+          // TODO
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
