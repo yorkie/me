@@ -3,27 +3,28 @@
 <head>
   <meta charset="utf-8">
   <script>
-    function test(fn, context){
+    function test(fn){
       var startDate = +new Date();
-      fn.call(context);
+      fn();
       return (+new Date()) - startDate;
     }
 
     var Test = {
       array: [],
       ready: function() {
-        for (var i=0; i<100000; i++) {
+        for (var i=0; i<10000000; i++) {
           this.array.push(i)
         }
+        console.log("Done!")
       },
 
       case1: function() {
-        for (var i=0; i<this.length; i++) {
+        for (var i=0; i<this.array.length; i++) {
           // TODO
         }
       },
       case2: function() {
-        for (var i=0, max=this.length; i<max; i++) {
+        for (var i=0, max=this.array.length; i<max; i++) {
           // TODO
         }
       }
