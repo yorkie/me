@@ -35,7 +35,7 @@ function getDateStringByFormat(date, format) {
 
 	var methodsMap = {
 		'yyyy': date.getFullYear(),
-		'MM': date.getMonth() + 1,
+		'MM': ('0' + (date.getMonth() + 1)).slice(-2),
 		'dd': date.getDate(),
 		'hh': date.getHours(),
 		'mm': date.getMinutes(),
