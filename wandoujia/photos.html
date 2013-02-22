@@ -73,8 +73,8 @@
       	  	  imgsStr += '<img src="'+tmp[i].imageURL+'" style="height:'+tmp[i].height/ratio+'px;width:'+tmp[i].width/ratio+'px" />'
       	  	}
 
+      	  	// 若是在之前就已有日期，则append到相应日期后
       	  	if (dates[date]) {
-      	  	  console.log(imgsStr)
       	  	  $('#d'+date).append(imgsStr)
       	  	  continue;
       	  	}
