@@ -45,64 +45,51 @@
   <script>
   	$(function() {
 
+      var nextURL, 
+        photos, 
+        ratio = 6
 
       function showImages(url, flag) {
 
-      	var nextURL
-      	var photos
-      	var ratio = 6;
-
-      	var xhr = $.getJSON(url).done(function(data, stats) {
-      	
+      	return $.getJSON(url).done(function(data, stats) {
       	  nextURL = data.nextURL
       	  photos  = data.photos
       	  console.log(photos)
-      	  group(photos, function(result) {
 
-      	    var htmlstr = ''
-      	    for (date in result) {
+      	  var result = group(photos)
+      	  var htmlstr = ''
+      	  for (date in result) {
 
-      	  	  htmlstr += '<li>'
-      	  	  htmlstr += '<p>' + date + '</p>'
-      	  	  for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
-      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/ratio +'px;width:' + tmp[i].width/ratio + 'px" />'
-      	  	  }
-      	  	  htmlstr += '</li>'
+      	  	htmlstr += '<li><p>' + date + '</p>'
+      	  	for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
+      	  	  htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/ratio +'px;width:' + tmp[i].width/ratio + 'px" />'
+      	  	}
+      	  	htmlstr += '</li>'
 
-      	    }
-      	    if (flag == 1) {
-      	    	$('#container ul').append(htmlstr)
-      	    }
-      	    else {
-      	    	$('#container ul').html(htmlstr)
-      	    }
-  
-      	  })
+      	  }
+      	  if (flag == 1) {
+      	    $('#container ul').append(htmlstr)
+      	  } 
+      	  else {
+      	    $('#container ul').html(htmlstr)
+      	  }
       	})
 
-      	return {
-      	  next: function(fn) {
-      	  	if (!nextURL) {
-      	  		throw "还没有获得nextURL"
-      	  	}
-      	  	showImages(nextURL, 1).done(fn)
-      	  },
-      	  done: xhr.done
-      	}
+      	
       }
 
-      var imagesCursor = showImages('//photo-sync.herokuapp.com/photos')
-      var lock = true
+      var imagesXhr = showImages('//photo-sync.herokuapp.com/photos')
+      var lock = false
 
 	  $(window).on('scroll', function() {
       	if ($(window).height() + $(window).scrollTop() + 100 > $('body').height()) {
-      	  if (lock) {
-      	  	imagesCursor.next()
-      	  	lock = false
-      	  }
-      	  imagesCursor.next(function() {
+      	  if (!lock) {
+      	  	imagesXhr = showImages(nextURL)
+      	  	imagesXhr.done(function() {
+      	  		//lock = false
+      	  	})
       	  	lock = true
-      	  })
+      	  }
         }
       })
 
