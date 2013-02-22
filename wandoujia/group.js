@@ -20,7 +20,6 @@ function group(photos) {
 	}
 
     return result
-
 }
 
 /**

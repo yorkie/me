@@ -6,7 +6,8 @@
     <script src="group.js"></script>
     <style type="text/css">
       body {
-      	text-align: center
+      	text-align: center;
+      	padding-top: 20px;
       }
       li {
       	list-style: none
@@ -28,6 +29,7 @@
       #container p {
       	font-family: 'Microsoft Yahei';
       	font-size: 17px;
+      	font-weight: bold;
       	color: #666;
       }
     </style>
@@ -45,10 +47,15 @@
   <script>
   	$(function() {
 
-      var nextURL, 
-        photos,
-        dates = {},
-        ratio = 6
+      var nextURL, 		// URL Cursor
+        photos,			// Photos Set
+        dates = {},		// Date Cache
+        ratio = 6.0
+
+      /**
+       * @param url   json地址
+       * @param flag  标示html/append
+       */
 
       function showImages(url, flag) {
 
@@ -85,7 +92,7 @@
       }
 
       var imagesXhr = showImages('//photo-sync.herokuapp.com/photos')
-      var lock = false
+      var lock = false	// 滚动锁
 
 	  $(window).on('scroll', function() {
       	if ($(window).height() + $(window).scrollTop() + 100 > $('body').height()) {
