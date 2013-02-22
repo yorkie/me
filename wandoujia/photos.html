@@ -46,7 +46,7 @@
 
   </body>
   <script>
-  	$(function() {
+  $(function() {
 
       var nextURL, 		// URL Cursor
         photos,			// Photos Set
@@ -96,18 +96,18 @@
       var imagesXhr = showImages('//photo-sync.herokuapp.com/photos')
       var lock = false	// 滚动锁
 
-	  $(window).on('scroll', function() {
+      $(window).on('scroll', function() {
       	if ($(window).height() + $(window).scrollTop() + 200 > $('body').height()) {
       	  if (!lock) {
-      	  	imagesXhr = showImages(nextURL, 1)
-      	  	imagesXhr.done(function() {
-      	  		lock = false
-      	  	})
-      	  	lock = true
+      	    imagesXhr = showImages(nextURL, 1)
+      	    imagesXhr.done(function() {
+      	      lock = false
+      	    })
+      	    lock = true
       	  }
         }
       })
 
-  	})
+  })
   </script>
 </html>
