@@ -34,12 +34,12 @@ function getDateStringByFormat(date, format) {
 	}
 
 	var methodsMap = {
-		'yyyy': date.getFullYear,
-		'MM': function() { return date.getMonth() + 1 },
-		'dd': date.getDate,
-		'hh': date.getHours,
-		'mm': date.getMinutes,
-		'ss': date.getSeconds
+		'yyyy': date.getFullYear(),
+		'MM': date.getMonth() + 1,
+		'dd': date.getDate(),
+		'hh': date.getHours(),
+		'mm': date.getMinutes(),
+		'ss': date.getSeconds()
 	}
 	var reg = /(y{4})|(M{2})|(d{2})|(h{2})|(m{2})|(s{2})/g
 	var result = format.replace(reg, function(src) {
