@@ -33,6 +33,8 @@ function getDateStringByFormat(date, format) {
 		date = new Date(date)
 	}
 
+	console.log(date)
+
 	var methodsMap = {
 		'yyyy': date.getFullYear,
 		'MM': function() { return date.getMonth() + 1 },
@@ -45,7 +47,7 @@ function getDateStringByFormat(date, format) {
 	var result = format.replace(reg, function(src) {
 
 		if (Object.prototype.toString.call(src) === '[object Array]') {
-			console.log(src[0])
+			//console.log(src[0])
 			methodsMap[src[0]]()
 		}
 
