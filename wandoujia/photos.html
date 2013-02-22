@@ -28,6 +28,7 @@
       	  for (date in result) {
 
       	  	htmlstr += '<li>'
+      	  	console.log(result, date, result[date])
       	  	for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
       	  		htmlstr += '<img src="' + tmp.imageURL + '" style="height:' + tmp.height/16 +'em;width:' + tmp.width/16 + 'em" />'
       	  	}
