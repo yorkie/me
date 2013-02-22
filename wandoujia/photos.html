@@ -13,7 +13,8 @@
       }
       img {
       	border: 1px solid #888;
-      	padding: 2px;
+      	padding: 3px;
+      	margin: 3px;
       }
       #container {
       	width: 1000px;
@@ -22,6 +23,12 @@
       }
       #container li {
       	vertical-align: center;
+      	margin: 5px;
+      }
+      #container p {
+      	font-family: 'Microsoft Yahei';
+      	font-size: 17px;
+      	color: #666;
       }
     </style>
   </head>
@@ -52,7 +59,7 @@
       	  	htmlstr += '<li>'
       	  	htmlstr += '<p>' + date + '</p>'
       	  	for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
-      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/5 +'px;width:' + tmp[i].width/5 + 'px" />'
+      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/8 +'px;width:' + tmp[i].width/8 + 'px" />'
       	  	}
       	  	htmlstr += '</li>'
 
