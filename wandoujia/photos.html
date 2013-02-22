@@ -74,7 +74,7 @@
       	  	}
 
       	  	if (dates[date]) {
-      	  	  console.log($('#d'+date))
+      	  	  console.log(imgsStr)
       	  	  $('#d'+date).append(imgsStr)
       	  	  continue;
       	  	}
@@ -96,7 +96,7 @@
       var lock = false	// 滚动锁
 
 	  $(window).on('scroll', function() {
-      	if ($(window).height() + $(window).scrollTop() + 100 > $('body').height()) {
+      	if ($(window).height() + $(window).scrollTop() + 200 > $('body').height()) {
       	  if (!lock) {
       	  	imagesXhr = showImages(nextURL, 1)
       	  	imagesXhr.done(function() {
