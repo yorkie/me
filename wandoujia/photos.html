@@ -14,8 +14,16 @@
   </body>
   <script>
   	$(function() {
-      $.getJSON('//photo-sync.herokuapp.com/photos').done(function() {
-      	console.log(arguments)
+      $.getJSON('//photo-sync.herokuapp.com/photos').done(function(data, stats) {
+      	
+      	var nextURL = data.nextURL
+      	var photos  = data.photos
+
+      	group(photos, function(result) {
+      		console.log(result)
+      	})
+
+
       })
   	})
   </script>

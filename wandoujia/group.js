@@ -1,7 +1,7 @@
  
 /* 图片分组 */
 
-function group(photos) {
+function group(photos, fn) {
 
 	var result = {}
 	var max = photos.length
@@ -18,6 +18,8 @@ function group(photos) {
 		}
 		result[time].push(temp)
 	}
+
+	fn.call(null, result)
 
 }
 
