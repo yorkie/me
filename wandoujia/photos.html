@@ -46,7 +46,8 @@
   	$(function() {
 
       var nextURL, 
-        photos, 
+        photos,
+        dates = {},
         ratio = 6
 
       function showImages(url, flag) {
@@ -54,18 +55,23 @@
       	return $.getJSON(url).done(function(data, stats) {
       	  nextURL = data.nextURL
       	  photos  = data.photos
-      	  console.log(photos)
 
       	  var result = group(photos)
       	  var htmlstr = ''
+      	  var imgsStr
       	  for (date in result) {
 
-      	  	htmlstr += '<li><p>' + date + '</p>'
+      	  	imgsStr = ''
       	  	for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
-      	  	  htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/ratio +'px;width:' + tmp[i].width/ratio + 'px" />'
+      	  	  imgsStr += '<img src="'+tmp[i].imageURL+'" style="height:'+tmp[i].height/ratio+'px;width:'+tmp[i].width/ratio+'px" />'
       	  	}
-      	  	htmlstr += '</li>'
 
+      	  	if (dates[date]) {
+      	  	  $('#d'+dates[date]).append(imgsStr)
+      	  	  continue;
+      	  	}
+      	  	htmlstr += ('<li id="d'+date+'"><p>'+date+'</p>' + imgsStr + '</li>')
+      	  	dates[date] = true
       	  }
       	  if (flag == 1) {
       	    $('#container ul').append(htmlstr)
