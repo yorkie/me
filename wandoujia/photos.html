@@ -63,6 +63,10 @@
       	return $.getJSON(url).done(function(data, stats) {
       	  nextURL = data.nextURL
       	  photos  = data.photos
+          
+          if (!photos) {
+            alert('没有返回，可能服务器正忙，请稍后重试')
+          }
 
       	  var result = group(photos)
       	  var htmlstr = ''
