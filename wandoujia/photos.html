@@ -4,6 +4,17 @@
     <title> For wandoujia.com </title>
     <script src="jquery-1.7.2.js"></script>
     <script src="group.js"></script>
+    <style type="text/css">
+      body {
+      	text-align: center
+      }
+      li {
+      	list-style: none
+      }
+      #container {
+      	width: 1000px;
+      }
+    </style>
   </head>
 
   <body>
@@ -30,8 +41,9 @@
       	  for (date in result) {
 
       	  	htmlstr += '<li>'
+      	  	htmlstr += '<p>' + date + '</p>'
       	  	for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
-      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/10 +'px;width:' + tmp[i].width/10 + 'px" />'
+      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/5 +'px;width:' + tmp[i].width/5 + 'px" />'
       	  	}
       	  	htmlstr += '</li>'
 
