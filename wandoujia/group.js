@@ -43,6 +43,7 @@ function getDateStringByFormat(date, format) {
 	}
 	var reg = /(y{4})|(M{2})|(d{2})|(h{2})|(m{2})|(s{2})/g
 	var result = format.replace(reg, function(src) {
+		console.log(src)
 
 		if (Object.prototype.toString.call(src) === '[object Array]') {
 			//console.log(src[0])
