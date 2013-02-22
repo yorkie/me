@@ -29,6 +29,10 @@ function group(photos, fn) {
 
 function getDateStringByFormat(date, format) {
 
+	if (Object.prototype.toString.call(date) !== '[object Date]') {
+		date = new Date(date)
+	}
+
 	var methodsMap = {
 		'yyyy': date.getFullYear,
 		'MM': function() { return date.getMonth() + 1 },
