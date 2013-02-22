@@ -49,24 +49,33 @@
       	
       	var nextURL = data.nextURL
       	var photos  = data.photos
-      	var ratio   = $(window).width()
+      	var ratio   = 6
 
-      	group(photos, function(result) {
+      	function layout(flag) {
+      	  group(photos, function(result) {
 
-      	  var htmlstr = ''
-      	  for (date in result) {
+      	    var htmlstr = ''
+      	    for (date in result) {
 
-      	  	htmlstr += '<li>'
-      	  	htmlstr += '<p>' + date + '</p>'
-      	  	for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
-      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/6 +'px;width:' + tmp[i].width/6 + 'px" />'
-      	  	}
-      	  	htmlstr += '</li>'
+      	  	  htmlstr += '<li>'
+      	  	  htmlstr += '<p>' + date + '</p>'
+      	  	  for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
+      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/ratio +'px;width:' + tmp[i].width/ratio + 'px" />'
+      	  	  }
+      	  	  htmlstr += '</li>'
 
-      	  }
-      	  $('#container ul').append(htmlstr)
+      	    }
+      	    if (flag == 1) {
+      	    	$('#container ul').append(htmlstr)
+      	    }
+      	    else {
+      	    	$('#container ul').html(htmlstr)
+      	    }
+  
+      	  })
+      	}
 
-      	})
+      	
 
 
       })
