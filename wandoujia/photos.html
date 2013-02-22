@@ -17,10 +17,12 @@
   </body>
   <script>
   	$(function() {
+
       $.getJSON('//photo-sync.herokuapp.com/photos').done(function(data, stats) {
       	
       	var nextURL = data.nextURL
       	var photos  = data.photos
+      	var ratio   = $(window).width()
 
       	group(photos, function(result) {
 
@@ -29,7 +31,7 @@
 
       	  	htmlstr += '<li>'
       	  	for (var i=0,tmp=result[date],max=tmp.length; i<max; i++) {
-      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/16 +'em;width:' + tmp[i].width/16 + 'em" />'
+      	  		htmlstr += '<img src="' + tmp[i].imageURL + '" style="height:' + tmp[i].height/10 +'px;width:' + tmp[i].width/10 + 'px" />'
       	  	}
       	  	htmlstr += '</li>'
 
