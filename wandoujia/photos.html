@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title> For wandoujia.com </title>
+    <script src="jquery-1.7.2.js"></script>
+    <script src="group.js"></script>
+  </head>
+
+  <body>
+
+
+
+
+  </body>
+  <script>
+  	$(function() {
+      $.getJSON('//photo-sync.herokuapp.com/photos').done(function() {
+      	console.log(arguments)
+      })
+  	})
+  </script>
+</html>
