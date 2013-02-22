@@ -52,7 +52,7 @@
       	var photos
       	var ratio = 6;
 
-      	$.getJSON(url).done(function(data, stats) {
+      	var xhr = $.getJSON(url).done(function(data, stats) {
       	
       	  nextURL = data.nextURL
       	  photos  = data.photos
@@ -81,20 +81,28 @@
       	})
 
       	return {
-      	  next: function() {
+      	  next: function(fn) {
       	  	if (!nextURL) {
       	  		throw "还没有获得nextURL"
       	  	}
-      	  	showImages(nextURL, 1)
-      	  }
+      	  	showImages(nextURL, 1).done(fn)
+      	  },
+      	  done: xhr.done
       	}
       }
 
       var imagesCursor = showImages('//photo-sync.herokuapp.com/photos')
+      var lock = true
 
 	  $(window).on('scroll', function() {
       	if ($(window).height() + $(window).scrollTop() + 100 > $('body').height()) {
-      	  imagesCursor.next()
+      	  if (lock) {
+      	  	imagesCursor.next()
+      	  	lock = false
+      	  }
+      	  imagesCursor.next(function() {
+      	  	lock = true
+      	  })
         }
       })
 
