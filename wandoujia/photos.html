@@ -92,7 +92,7 @@
       var imagesCursor = showImages('//photo-sync.herokuapp.com/photos')
 
 	  $(window).on('scroll', function() {
-      	if ($(window).height() + $(window).scrollTop() + 100 > $(window.body).height()) {
+      	if ($(window).height() + $(window).scrollTop() + 100 > $('body').height()) {
       	  imagesCursor.next()
         }
       })
