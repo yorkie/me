@@ -45,13 +45,17 @@
   <script>
   	$(function() {
 
-      $.getJSON('//photo-sync.herokuapp.com/photos').done(function(data, stats) {
-      	
-      	var nextURL = data.nextURL
-      	var photos  = data.photos
-      	var ratio   = 6
 
-      	function layout(flag) {
+      function showImages(url, flag) {
+
+      	var nextURL
+      	var photos
+      	var ratio = 0;
+
+      	$.getJSON(url).done(function(data, stats) {
+      	
+      	  nextURL = data.nextURL
+      	  photos  = data.photos
       	  group(photos, function(result) {
 
       	    var htmlstr = ''
@@ -73,12 +77,26 @@
       	    }
   
       	  })
+      	})
+
+      	return {
+      	  next: function() {
+      	  	if (!nextURL) {
+      	  		throw "还没有获得nextURL"
+      	  	}
+      	  	showImages(nextURL, 1)
+      	  }
       	}
+      }
 
-      	
+      var imagesCursor = showImages('//photo-sync.herokuapp.com/photos')
 
-
+	  $(window).on('scroll', function() {
+      	if ($(window).height() + $(window).scrollTop() + 100 > $(window.body).height()) {
+      	  imagesCursor.next()
+        }
       })
+
   	})
   </script>
 </html>
