@@ -84,9 +84,9 @@
 	  $(window).on('scroll', function() {
       	if ($(window).height() + $(window).scrollTop() + 100 > $('body').height()) {
       	  if (!lock) {
-      	  	imagesXhr = showImages(nextURL)
+      	  	imagesXhr = showImages(nextURL, 1)
       	  	imagesXhr.done(function() {
-      	  		//lock = false
+      	  		lock = false
       	  	})
       	  	lock = true
       	  }
