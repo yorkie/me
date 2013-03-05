@@ -107,13 +107,14 @@ function lock_solution() {
   while (true) {
     if (i >= 20) break
     if (!lock) {
-  	  lock = true
-		  xss_rpc_call(i, function(result) {
-			  display_result("coolshell_lock", i + "," + result)
-			  i = i + 1
-			  lock = false
-		  })
-	  }
+      lock = true
+      xss_rpc_call(i, function(result) {
+        display_result("coolshell_lock", i + "," + result)
+	i = i + 1
+	lock = false
+	console.log(i, lock)
+      })
+    }
   }
 }
 
