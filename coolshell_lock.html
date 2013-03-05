@@ -105,7 +105,10 @@ function lock_solution() {
   var lock = false
   var i = 0
   var t = setInterval(function() {
-    if (i >= 20) clearInterval(t)
+    if (i >= 20) {
+      clearInterval(t)
+      return
+    }
     if (!lock) {
       lock = true
       xss_rpc_call(i, function(result) {
