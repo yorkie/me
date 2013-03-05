@@ -104,18 +104,17 @@ function async_solution(){
 function lock_solution() {
   var lock = false
   var i = 0
-  while (true) {
-    if (i >= 20) break
+  var t = setInterval(function() {
+    if (i >= 20) clearInterval(t)
     if (!lock) {
       lock = true
       xss_rpc_call(i, function(result) {
         display_result("coolshell_lock", i + "," + result)
 	i = i + 1
 	lock = false
-	console.log(i, lock)
       })
     }
-  }
+  }, 100)
 }
 
 </script>
