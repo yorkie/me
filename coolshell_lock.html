@@ -104,7 +104,8 @@ function async_solution(){
 function lock_solution() {
   var lock = false
   var i = 0
-  var t = setInterval(function() {
+  
+  function action() {
     if (i >= 20) {
       clearInterval(t)
       return
@@ -117,7 +118,9 @@ function lock_solution() {
 	lock = false
       })
     }
-  }, 0)
+  }
+  
+  requestAnimationFrame(action)
 };
 
 </script>
