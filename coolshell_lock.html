@@ -104,8 +104,7 @@ function async_solution(){
 function lock_solution() {
   var lock = false
   var i = 0
-  
-  function action() {
+  requestAnimationFrame(function action() {
     if (i >= 20) {
       return
     }
@@ -118,10 +117,8 @@ function lock_solution() {
       })
     }
     requestAnimationFrame(action)
-  }
-  
-  requestAnimationFrame(action)
-};
+  })
+}
 
 </script>
 
