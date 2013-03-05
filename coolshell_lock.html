@@ -107,7 +107,6 @@ function lock_solution() {
   
   function action() {
     if (i >= 20) {
-      clearInterval(t)
       return
     }
     if (!lock) {
@@ -118,6 +117,7 @@ function lock_solution() {
 	lock = false
       })
     }
+    requestAnimationFrame(action)
   }
   
   requestAnimationFrame(action)
