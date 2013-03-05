@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>async test</title>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script latype="text/javascript" src="http://coolshell.cn/t.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://raw.github.com/enginespot/Async/master/asyncseries.js"></script>
+
+</head>
+
+<body>
+    <table border=1>
+        <tr valign=top>
+            <td >
+                <input name="hi" type="button" value="problem" onClick="problem_test()">
+                <div id="coolshell_problem"></div>
+            </td>
+            <td>
+                <input name="hi" type="button" value="Closure" onClick="closure_problem()">
+                <div id="coolshell_closure"></div>
+            </td>
+            <td>
+                <input name="hi" type="button" value="Recurse" onClick="recursive_solution(0)">
+                <div id="coolshell_recursive"></div>
+            </td>
+            <td>
+                <input name="hi" type="button" value="async" onClick="async_solution()"> <br>
+                By <a href="http://weibo.com/enginespot" target=_blank>@enginespot</a>
+                <div id="coolshell_async"></div>
+            </td>
+            <td>
+                <input name="hi" type="button" value="lock" onClick="lock_solution()"> <br>
+                <div id="coolshell_lock"></div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+var total = 20;
+
+function display_result(id, text)
+{
+    var div = document.getElementById(id);
+    var new_div = document.createElement("div");
+    new_div.appendChild(document.createTextNode(text));
+    div.appendChild(new_div);
+}
+
+function problem_test()
+{
+    for (var i = 0; i < total; i++) {
+
+        var tmp = i;
+        xss_rpc_call(i, function(result){
+            display_result ("coolshell_problem", i + "," + result); 
+        });
+    }
+}
+
+function closure_problem()
+{
+    for (var i = 0; i < total; i++) {
+
+        (function(x){
+            xss_rpc_call(x, function(result){
+                display_result ("coolshell_closure", x + "," + result); 
+            });
+        })(i);
+    }
+}
+
+
+
+function recursive_solution(i)
+{
+    if (i>=total) return;
+
+    xss_rpc_call(i, function(result){
+        display_result ("coolshell_recursive", i + "," + result); 
+
+        recursive_solution(i+1);
+    });
+}
+
+
+function async_solution(){
+    var async = new Async();
+    for (var i = 0; i < 20; i++) {
+        async.series((function (index) {
+            xss_rpc_call(index, function (result) {
+                display_result ("coolshell_async", index + "," + result); 
+                async.callback();
+            });
+        }).bind(null, i));
+    }
+}
+
+
+function lock_solution() {
+  var lock = false
+  var i = 0
+  while (true) {
+    if (i >= 20) break
+    if (!lock) {
+  	  lock = true
+		  xss_rpc_call(i, function(result) {
+			  display_result("coolshell_lock", i + "," + result)
+			  i = i + 1
+			  lock = false
+		  })
+	  }
+  }
+}
+
+</script>
+
