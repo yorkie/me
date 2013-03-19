@@ -1,4 +1,3 @@
-
 ### 毕业设计
 
 #### 杨昌贵的开题报告+任务书+审核表
@@ -19,4 +18,4 @@
   4. 完成后传给老师检查通过
 
 下载Word文件:
-  <a href="">杨昌贵的开题报告+任务书+审核表</a>
+  <a href="https://github.com/yorkie/yorkie.github.com/raw/master/campus/res/%E6%9D%A8%E6%98%8C%E8%B4%B5%E7%9A%84%E5%BC%80%E9%A2%98%E6%8A%A5%E5%91%8A%2B%E4%BB%BB%E5%8A%A1%E4%B9%A6%2B%E5%AE%A1%E6%A0%B8%E8%A1%A8.doc">杨昌贵的开题报告+任务书+审核表</a>
