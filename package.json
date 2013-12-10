@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "name": "blog",
+  "description": "A package manager for node",
+  "keywords": [
+    "package manager",
+    "modules",
+    "install",
+    "package.json"
+  ],
+  "author": "Yorkie <yorkiefixer@gmail.me> (http://yorkiefixer.me)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yorkie/blog"
+  },
+  "engines": {
+    "node": ">=0.6",
+    "npm": "1"
+  },
+  "license": "MIT"
+}
