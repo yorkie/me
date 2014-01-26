@@ -1,13 +1,14 @@
 Yorkie Neil
 ======================================
-Email: yorkiefixer@gmail.com
-Age: 24
+* Email: yorkiefixer@gmail.com
+* Age: 24
 
 Professional Skills
 =======================================
-Languages: Javascript(NodeJS), XML, HTML, CSS, C/C++
-Database: MongoDB, Redis
-Github: https://github.com/yorkie
+* Languages: Javascript(NodeJS), XML, HTML, CSS, C/C++
+* Database: MongoDB, Redis
+* OS: CentOS/Mac
+* Github: https://github.com/yorkie
 
 Contributors
 =======================================
