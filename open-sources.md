@@ -10,7 +10,7 @@ Professional Skills
 * OS: CentOS/Mac
 * Github: https://github.com/yorkie
 
-Contributors
+Contributes
 =======================================
 * [marcello3d/node-mongolian](https://github.com/marcello3d/node-mongolian/commits?author=yorkie)
 * [marcello3d/node-buffalo](https://github.com/marcello3d/node-buffalo/commits?author=yorkie)
