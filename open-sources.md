@@ -22,6 +22,7 @@ Contributes
 * [stream-utils/hash-stream](https://github.com/stream-utils/hash-stream/commits?author=yorkie)
 * [visionmedia/n](https://github.com/visionmedia/n/commits?author=yorkie)
 * [component/type](https://github.com/component/type/commits?author=yorkie)
+* [luna/luna](https://github.com/luna/luna/commits?author=yorkie)
 
 Education
 =======================================
