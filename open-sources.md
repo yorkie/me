@@ -1,14 +1,19 @@
 Yorkie Neil
 ======================================
-* Email: yorkiefixer@gmail.com
 * Age: 24
-
-Professional Skills
-=======================================
-* Languages: Javascript(NodeJS), XML, HTML, CSS, C/C++
+* Languages: Javascript(NodeJS), XML, HTML, CSS, C/C++, OpenSSL
 * Database: MongoDB, Redis
 * OS: CentOS/Mac
+* Email: yorkiefixer@gmail.com
 * Github: https://github.com/yorkie
+* Twitter: https://twitter.com/yorkienell
+* Google+: https://plus.google.com/+YorkieNeil/posts
+
+Working on
+======================================
+* [Getseedmail.com](https://getseedmail.com) An IOS mail app
+* [Quip](https://github.com/yorkie/quip) A new language to use libuv for lower resource usage.
+
 
 Contributes
 =======================================
