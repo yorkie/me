@@ -11,7 +11,6 @@ Yorkie Neil
 
 Working on
 ======================================
-* [Getseedmail.com](http://getseedmail.com): An IOS mail app
 * [Quip](https://github.com/yorkie/quip): A new language to use libuv for lower resource usage.
 
 
