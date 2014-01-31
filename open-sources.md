@@ -23,6 +23,7 @@ Contributes
 * [visionmedia/n](https://github.com/visionmedia/n/commits?author=yorkie)
 * [component/type](https://github.com/component/type/commits?author=yorkie)
 * [luna/luna](https://github.com/luna/luna/commits?author=yorkie)
+* [fs-read-cache](https://github.com/jonathanong/fs-read-cache/commits?author=yorkie)
 
 Education
 =======================================
