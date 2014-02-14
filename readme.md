@@ -30,7 +30,7 @@ Contributes
 * [component/type](https://github.com/component/type/commits?author=yorkie)
 * [luna/luna](https://github.com/luna/luna/commits?author=yorkie)
 * [jwerle/fs.c](https://github.com/jwerle/fs.c/commits?author=yorkie)
-* [fs-read-cache](https://github.com/jonathanong/fs-read-cache/commits?author=yorkie)
+* [jonathanong/fs-read-cache](https://github.com/jonathanong/fs-read-cache/commits?author=yorkie)
 
 Education
 =======================================
