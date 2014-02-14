@@ -8,6 +8,7 @@ Yorkie Neil
 * Github: https://github.com/yorkie
 * Twitter: https://twitter.com/yorkienell
 * Google+: https://plus.google.com/+YorkieNeil/posts
+* npmjs.org: https://www.npmjs.org/~yorkie
 
 Working on
 ======================================
