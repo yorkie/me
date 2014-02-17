@@ -21,6 +21,7 @@ Contributes
 * [marcello3d/node-buffalo](https://github.com/marcello3d/node-buffalo/commits?author=yorkie)
 * [joyent/node](https://github.com/joyent/node/commits?author=yorkie)
 * [joyent/libuv](https://github.com/joyent/libuv/commits?author=yorkie)
+* [npm/npm](https://github.com/npm/npm/commits?author=yorkie)
 * [clibs/readline](https://github.com/clibs/readline/commits?author=yorkie)
 * [clibs/clib](https://github.com/clibs/clib/commits?author=yorkie)
 * [dinhviethoa/libetpan](https://github.com/dinhviethoa/libetpan/commits?author=yorkie)
