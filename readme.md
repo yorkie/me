@@ -36,6 +36,7 @@ Contributes
 17. [jwerle/fs.c](https://github.com/jwerle/fs.c/commits?author=yorkie)
 18. [jonathanong/fs-read-cache](https://github.com/jonathanong/fs-read-cache/commits?author=yorkie)
 19. [fiveisprime/nodemavens](https://github.com/fiveisprime/nodemavens/commits?author=yorkie)
+20. [LearnBoost/mongoose](https://github.com/LearnBoost/mongoose)
 
 Education
 =======================================
