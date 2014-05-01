@@ -1,9 +1,9 @@
 Yorkie Neil
 ======================================
 * Age: 24
-* Languages: Javascript(NodeJS), XML, HTML, CSS, C/C++, OpenSSL
+* Languages: Javascript(NodeJS), XML, HTML, CSS, C/C++, OpenSSL, Objective-C
 * Database: MongoDB, Redis
-* OS: CentOS/Mac
+* OS: CentOS/Debian/Mac
 * Email: yorkiefixer@gmail.com
 * Github: https://github.com/yorkie
 * Twitter: https://twitter.com/yorkienell
@@ -12,7 +12,7 @@ Yorkie Neil
 
 Working on
 ======================================
-* [Quip](https://github.com/yorkie/quip): A new language to use libuv for lower resource usage.
+* [lv](https://github.com/yorkie/lv): javascript to assembly tool in pure javascript
 
 
 Contributes
@@ -22,6 +22,7 @@ Contributes
 3. [joyent/node](https://github.com/joyent/node/commits?author=yorkie)
 4. [joyent/libuv](https://github.com/joyent/libuv/commits?author=yorkie)
 5. [npm/npm](https://github.com/npm/npm/commits?author=yorkie)
+6. [node-inspector/v8-profiler](https://github.com/node-inspector/v8-profiler/commits?author=yorkie)
 6. [clibs/readline](https://github.com/clibs/readline/commits?author=yorkie)
 7. [clibs/net](https://github.com/clibs/clib/commits?author=yorkie)
 8. [clibs/clib](https://github.com/clibs/clib/commits?author=yorkie)
