@@ -41,6 +41,7 @@ Contributes
 22. [LearnBoost/mongoose](https://github.com/LearnBoost/mongoose/commits?author=yorkie)
 23. [paulomcnally/json-api-response](https://github.com/paulomcnally/json-api-response/commits?author=yorkie)
 24. [andris9/inbox](https://github.com/andris9/inbox/commits?author=yorkie)
+25. [evilstreak/markdown-js](https://github.com/evilstreak/markdown-js/commits?author=yorkie)
 
 Education
 =======================================
