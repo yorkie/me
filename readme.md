@@ -42,7 +42,10 @@ Contributes
 23. [paulomcnally/json-api-response](https://github.com/paulomcnally/json-api-response/commits?author=yorkie)
 24. [andris9/inbox](https://github.com/andris9/inbox/commits?author=yorkie)
 25. [evilstreak/markdown-js](https://github.com/evilstreak/markdown-js/commits?author=yorkie)
+26. [bpkg/bpkg](https://github.com/bpkg/bpkg/commits?author=yorkie)
+27. [bpkg/github](https://github.com/bpkg/github/commits?author=yorkie)
 
-Education
+Bussiness Timeline
 =======================================
-* Guizhou University, China (2008-2013)
+* Guizhou University, China (2008.9-2013.7)
+* Mangrove Inc, China (2013.7-2014.7)
