@@ -45,6 +45,7 @@ Contributes
 26. [bpkg/bpkg](https://github.com/bpkg/bpkg/commits?author=yorkie)
 27. [bpkg/github](https://github.com/bpkg/github/commits?author=yorkie)
 28. [expressjs/statuses](https://github.com/expressjs/statuses/commits?author=yorkie)
+29. [clowwindy/shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs/commits?author=yorkie)
 
 Bussiness Timeline
 =======================================
