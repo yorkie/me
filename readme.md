@@ -1,7 +1,7 @@
 Yorkie Neil
 ======================================
 * Age: 24
-* Languages: Node, HTML, CSS, C/C++, Objective-C
+* Languages: Node, HTML, C/C++
 * Database: MongoDB, Redis
 * OS: CentOS/Debian/Mac/Windows
 * Email: yorkiefixer@gmail.com
@@ -9,6 +9,7 @@ Yorkie Neil
 * Twitter: https://twitter.com/yorkienell
 * Google+: https://plus.google.com/+YorkieNeil/posts
 * npmjs.org: https://www.npmjs.org/~yorkie
+* blog: http://yorkie.ninja
 
 Working on
 ======================================
@@ -49,6 +50,9 @@ Contributes
 30. [tarcieri/http](https://github.com/tarcieri/http/commits?author=yorkie)(ruby)
 31. [aszxqw/nodejieba](https://github.com/aszxqw/nodejieba/commits/master?author=yorkie)
 32. [django/django](https://github.com/django/django/commits/master?author=yorkie)(python)
+33. [MailCore/mailcore.node](https://github.com/MailCore/mailcore.node/commits/master?author=yorkie)
+34. [jwerle/is-localhost](https://github.com/jwerle/is-localhost/commits?author=yorkie)
+35. [shakyShane/browser-sync](https://github.com/shakyShane/browser-sync/commits?author=yorkie)
 
 Bussiness Timeline
 =======================================
