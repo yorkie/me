@@ -60,4 +60,3 @@ Bussiness Timeline
 =======================================
 * Guizhou University, China (2008.9-2013.7)
 * Mangrove Inc, China (2013.7-2014.7)
-* Hola, Inc, Israel (2014.7-Present)
