@@ -1,20 +1,19 @@
 Yorkie Neil
 ======================================
-* Age: 24
-* Languages: Node, HTML, C/C++
-* Database: MongoDB, Redis
+* Birthday: April 22th, 1990
+* Languages: Node.js, C/C++, Python, Rust[, Chinese, English]
+* Database: MongoDB, Redis, PostgreSQL
 * OS: CentOS/Debian/Mac/Windows
-* Email: yorkiefixer@gmail.com
+* Email: yorkiefixer@gmail.com, yorkie.ninja.1990@gmail.com
 * Github: https://github.com/yorkie
 * Twitter: https://twitter.com/yorkienell
 * Google+: https://plus.google.com/+YorkieNeil/posts
 * npmjs.org: https://www.npmjs.org/~yorkie
-* blog: http://yorkie.ninja
+* blog: http://yorkie.ninja/
 
 Working on
 ======================================
 * [lv](https://github.com/yorkie/lv): javascript to assembly tool in pure javascript
-* [JTLS](https://github.com/yorkie/JTLS): Optimized memory TLS implementation in pure javascript
 
 Contributes
 =======================================
@@ -55,8 +54,10 @@ Contributes
 35. [shakyShane/browser-sync](https://github.com/shakyShane/browser-sync/commits?author=yorkie)
 36. [rvagg/servertest](https://github.com/rvagg/servertest/commits?author=yorkie)
 37. [dominicatarr/level-sublevel](https://github.com/dominicatarr/level-sublevel/commits?author=yorkie)
+38. [mschema/mschema](https://github.com/mschema/mschema/commits?author=yorkie)
 
 Bussiness Timeline
 =======================================
 * Guizhou University, China (2008.9-2013.7)
 * Mangrove Inc, China (2013.7-2014.7)
+* Hola, Inc, Israel (2014.7-2014.9)
