@@ -55,6 +55,7 @@ Contributes
 36. [rvagg/servertest](https://github.com/rvagg/servertest/commits?author=yorkie)
 37. [dominicatarr/level-sublevel](https://github.com/dominicatarr/level-sublevel/commits?author=yorkie)
 38. [mschema/mschema](https://github.com/mschema/mschema/commits?author=yorkie)
+39. [feross/hostile](https://github.com/feross/hostile/commits?author=yorkie)
 
 Bussiness Timeline
 =======================================
