@@ -58,9 +58,11 @@ Contributes
 38. [mschema/mschema](https://github.com/mschema/mschema/commits?author=yorkie)
 39. [feross/hostile](https://github.com/feross/hostile/commits?author=yorkie)
 40. [razorjack/quicksand](https://github.com/razorjack/quicksand/commits?author=yorkie)
+41. [dmcquay/node-apac](https://github.com/dmcquay/node-apac/commits?author=yorkie)
 
 Bussiness Timeline
 =======================================
 * Guizhou University, China (2008.9-2013.7)
-* Mangrove Inc, China (2013.7-2014.7)
-* Hola, Inc, Israel (2014.7-2014.9)
+* Mangrove, China (2013.7-2014.7)
+* Hola, Israel (2014.7-2014.9)
+* Pixbi, US (2014.9-2015.3)
