@@ -3,20 +3,24 @@ Yorkie Liu
 * Birthday: April 22th, 1990
 * Languages: Node.js, C/C++, Python, Rust[, Chinese, English]
 * Database: MongoDB, Redis, PostgreSQL
-* OS: CentOS/Debian/Mac/Windows
-* Email: yorkiefixer@gmail.com, yorkie.ninja.1990@gmail.com
+* OS: Linux/Mac/Windows
+* Email: yorkiefixer@gmail.com
 * Github: https://github.com/yorkie
 * Twitter: https://twitter.com/yorkienell
 * Google+: https://plus.google.com/+YorkieNeil/posts
 * npmjs.org: https://www.npmjs.org/~yorkie
+* zhihu.com: http://www.zhihu.com/people/yorkie
 * blog: http://yorkie.ninja/
 
 Working on
 ======================================
-* [lv](https://github.com/yorkie/lv): javascript to assembly tool in pure javascript
 
-Contributes
+* [yorkie/rustjs](https://github.com/yorkie/rust.js): NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance
+* [fireball-x/firedoc](https://github.com/fireball-x/firedoc): API Doc generator rewritten from YUIDoc
+
+Contributions
 =======================================
+
 1. [marcello3d/node-mongolian](https://github.com/marcello3d/node-mongolian/commits?author=yorkie)
 2. [marcello3d/node-buffalo](https://github.com/marcello3d/node-buffalo/commits?author=yorkie)
 3. [joyent/node](https://github.com/joyent/node/commits?author=yorkie)
@@ -62,7 +66,11 @@ Contributes
 
 Bussiness Timeline
 =======================================
+
 * Guizhou University, China (2008.9-2013.7)
-* Mangrove, China (2013.7-2014.7)
+* Mangrove, Beijing, China (2013.7-2014.7)
 * Hola, Israel (2014.7-2014.9)
-* Pixbi, US (2014.9-2015.3)
+* Pixbi, NYC, US (2014.9-2015.3)
+* 51DegreesMobi, Reading, UK (2014.10-Present)
+* Firebox, Xiamen, China (2015.4-Present)
+* Weflex, Shanghai, China (2015.6-Present)
