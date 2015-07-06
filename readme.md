@@ -63,6 +63,7 @@ Contributions
 39. [feross/hostile](https://github.com/feross/hostile/commits?author=yorkie)
 40. [razorjack/quicksand](https://github.com/razorjack/quicksand/commits?author=yorkie)
 41. [dmcquay/node-apac](https://github.com/dmcquay/node-apac/commits?author=yorkie) The APAC client for Node.js
+42. [strongloop/loopback-component-passport](https://github.com/strongloop/loopback-component-passport/commits?author=yorkie) LoopBack passport integration to support third party logins and account linking
 
 Bussiness Timeline
 =======================================
