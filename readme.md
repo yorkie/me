@@ -75,3 +75,11 @@ Bussiness Timeline
 * [51DegreesMobi](https://github.com/51Degreesmobi), Reading, UK (2014.10-Present)
 * [Firebox](https://github.com/fireball-x), Xiamen, China (2015.4-Present)
 * [Weflex](https://github.com/weflex), Shanghai, China (2015.6-Present)
+
+AMA(Ask me anything)
+=======================================
+
+If you want to ask me anything, go to https://github.com/yorkie/ama, I will put my answers
+publicly. This is inspired by https://github.com/sindresorhus/ama.
+
+
