@@ -64,6 +64,7 @@ Contributions
 40. [razorjack/quicksand](https://github.com/razorjack/quicksand/commits?author=yorkie)
 41. [dmcquay/node-apac](https://github.com/dmcquay/node-apac/commits?author=yorkie) The APAC client for Node.js
 42. [strongloop/loopback-component-passport](https://github.com/strongloop/loopback-component-passport/commits?author=yorkie) LoopBack passport integration to support third party logins and account linking
+43. [fireball-x/editor-framework](https://github.com/fireball-x/editor-framework/commits?author=yorkie) A framework gives you power to easily write professional multi-panel desktop software in HTML5 and io.js.
 
 Bussiness Timeline
 =======================================
