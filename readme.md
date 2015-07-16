@@ -65,6 +65,7 @@ Contributions
 41. [dmcquay/node-apac](https://github.com/dmcquay/node-apac/commits?author=yorkie) The APAC client for Node.js
 42. [strongloop/loopback-component-passport](https://github.com/strongloop/loopback-component-passport/commits?author=yorkie) LoopBack passport integration to support third party logins and account linking
 43. [fireball-x/editor-framework](https://github.com/fireball-x/editor-framework/commits?author=yorkie) A framework gives you power to easily write professional multi-panel desktop software in HTML5 and io.js.
+44. [weflex/markdown-editor-flavored](https://github.com/weflex/markdown-editor-flavored/commits?author=yorkie) a markdown editor just like github flavored editor based on markdown-it
 
 Bussiness Timeline
 =======================================
@@ -82,5 +83,3 @@ AMA(Ask me anything)
 
 If you want to ask me anything, go to https://github.com/yorkie/ama, I will put my answers
 publicly. This is inspired by https://github.com/sindresorhus/ama.
-
-
