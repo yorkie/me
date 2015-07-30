@@ -16,16 +16,14 @@ Yorkie Liu
 | Zhihu         | [yorkie](http://www.zhihu.com/people/yorkie) |
 | blog          | [yorkie.ninja](http://yorkie.ninja/) |
 
-Working on
-======================================
+### Working on
 
 | Project | description |
 |---------|-------------|
 | [yorkie/rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
 | [fireball-x/firedoc](https://github.com/fireball-x/firedoc) | API Doc generator rewritten from YUIDoc |
 
-Contributions
-=======================================
+### Contributions
 
 1. [marcello3d/node-mongolian](https://github.com/marcello3d/node-mongolian/commits?author=yorkie) MongoDB client for Node.js
 2. [marcello3d/node-buffalo](https://github.com/marcello3d/node-buffalo/commits?author=yorkie) BSON parser for Node.js
@@ -73,8 +71,7 @@ Contributions
 43. [fireball-x/editor-framework](https://github.com/fireball-x/editor-framework/commits?author=yorkie) A framework gives you power to easily write professional multi-panel desktop software in HTML5 and io.js.
 44. [weflex/markdown-editor-flavored](https://github.com/weflex/markdown-editor-flavored/commits?author=yorkie) a markdown editor just like github flavored editor based on markdown-it
 
-Bussiness Timeline
-=======================================
+### Bussiness Timeline
 
 * [Guizhou University](http://www.gzu.edu.cn/en/), China (2008.9-2013.7)
 * [Mangrove](http://waveapp.im/), Beijing, China (2013.7-2014.7)
@@ -84,8 +81,7 @@ Bussiness Timeline
 * [Firebox](https://github.com/fireball-x), Xiamen, China (2015.4-Present)
 * [Weflex](https://github.com/weflex), Shanghai, China (2015.6-Present)
 
-AMA(Ask me anything)
-=======================================
+### AMA(Ask me anything)
 
-If you want to ask me anything, go to https://github.com/yorkie/ama, I will put my answers
+If you want to ask me **anything**, go to https://github.com/yorkie/ama, I will put my answers
 publicly. This is inspired by https://github.com/sindresorhus/ama.
