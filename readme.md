@@ -1,22 +1,28 @@
 Yorkie Liu
 ======================================
-* Birthday: April 22th, 1990
-* Languages: [Node.js](http://nodejs.org), C/C++, [Python](https://www.python.org/), [Rust](http://www.rust-lang.org/)
-* Database: [MongoDB](https://www.mongodb.com/), [Redis](http://redis.io), PostgreSQL
-* OS: [Linux](https://github.com/torvalds/linux)/[Mac](https://www.apple.com)/Windows
-* Email: [yorkiefixer@gmail.com](mailto://yorkiefixer@gmail.com)
-* Github: [@yorkie](https://github.com/yorkie)
-* Twitter: [@yorkienell](https://twitter.com/yorkienell)
-* Google+: [+YorkieNeil](https://plus.google.com/+YorkieNeil/posts)
-* npmjs.org: [~yorkie](https://www.npmjs.org/~yorkie)
-* zhihu.com: [yorkie](http://www.zhihu.com/people/yorkie)
-* blog: [yorkie.ninja](http://yorkie.ninja/)
+
+
+| Property name | value |
+|---------------|-------|
+| Birth         | 22th, April, 1990 |
+| Languages     | [Node.js](http://nodejs.org), C/C++, [Python](https://www.python.org/), [Rust](http://www.rust-lang.org/) |
+| Databases     | [MongoDB](https://www.mongodb.com/), [Redis](http://redis.io) |
+| Platforms     | [Linux](https://github.com/torvalds/linux)/[Mac](https://www.apple.com)/Windows |
+| Email         | [yorkiefixer@gmail.com](mailto://yorkiefixer@gmail.com) |
+| Github        | [@yorkie](https://github.com/yorkie) |
+| Twitter       | [@yorkienell](https://twitter.com/yorkienell) |
+| G+            | [+YorkieNeil](https://plus.google.com/+YorkieNeil/posts) |
+| NPM           | [yorkie](https://www.npmjs.org/~yorkie) |
+| Zhihu         | [yorkie](http://www.zhihu.com/people/yorkie) |
+| blog          | [yorkie.ninja](http://yorkie.ninja/) |
 
 Working on
 ======================================
 
-* [yorkie/rustjs](https://github.com/yorkie/rust.js): NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance
-* [fireball-x/firedoc](https://github.com/fireball-x/firedoc): API Doc generator rewritten from YUIDoc
+| Project | description |
+|---------|-------------|
+| [yorkie/rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
+| [fireball-x/firedoc](https://github.com/fireball-x/firedoc) | API Doc generator rewritten from YUIDoc |
 
 Contributions
 =======================================
