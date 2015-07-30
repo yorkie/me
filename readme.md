@@ -20,8 +20,8 @@ Yorkie Liu
 
 | Project | description |
 |---------|-------------|
-| [yorkie/rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
-| [fireball-x/firedoc](https://github.com/fireball-x/firedoc) | API Doc generator rewritten from YUIDoc |
+| [rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
+| [firedoc](https://github.com/fireball-x/firedoc) | API Doc generator rewritten from YUIDoc |
 
 ### Contributions
 
