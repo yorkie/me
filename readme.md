@@ -70,6 +70,7 @@ Yorkie Liu
 42. [strongloop/loopback-component-passport](https://github.com/strongloop/loopback-component-passport/commits?author=yorkie) LoopBack passport integration to support third party logins and account linking
 43. [fireball-x/editor-framework](https://github.com/fireball-x/editor-framework/commits?author=yorkie) A framework gives you power to easily write professional multi-panel desktop software in HTML5 and io.js.
 44. [weflex/markdown-editor-flavored](https://github.com/weflex/markdown-editor-flavored/commits?author=yorkie) a markdown editor just like github flavored editor based on markdown-it
+45. [ewnd9/progress-control](https://github.com/ewnd9/progress-control/commits/master?author=yorkie) node-progress wrapper to control bar from keyboard
 
 ### Bussiness Timeline
 
