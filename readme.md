@@ -71,6 +71,7 @@ Yorkie Liu
 43. [fireball-x/editor-framework](https://github.com/fireball-x/editor-framework/commits?author=yorkie) A framework gives you power to easily write professional multi-panel desktop software in HTML5 and io.js.
 44. [weflex/markdown-editor-flavored](https://github.com/weflex/markdown-editor-flavored/commits?author=yorkie) a markdown editor just like github flavored editor based on markdown-it
 45. [ewnd9/progress-control](https://github.com/ewnd9/progress-control/commits/master?author=yorkie) node-progress wrapper to control bar from keyboard
+46. [strongloop/strong-remoting](https://github.com/strongloop/strong-remoting/commits?author=yorkie) Communicate between objects in servers, mobile apps, and other servers.
 
 ### Bussiness Timeline
 
