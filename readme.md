@@ -73,13 +73,9 @@ Yorkie Liu
 
 ### Bussiness Timeline
 
-* [Guizhou University](http://www.gzu.edu.cn/en/), China (2008.9-2013.7)
-* [Mangrove](http://waveapp.im/), Beijing, China (2013.7-2014.7)
 * [Hola](http://hola.org/), Israel (2014.7-2014.9)
 * [Pixbi](https://github.com/pixbi), NYC, US (2014.9-2015.3)
 * [51DegreesMobi](https://github.com/51Degreesmobi), Reading, UK (2014.10-Present)
-* [Firebox](https://github.com/fireball-x), Xiamen, China (2015.4-Present)
-* [Weflex](https://github.com/weflex), Shanghai, China (2015.6-Present)
 
 ### AMA(Ask me anything)
 
