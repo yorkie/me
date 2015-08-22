@@ -4,16 +4,14 @@ Yorkie Liu
 
 | Property name | value |
 |---------------|-------|
-| Birth         | 22th, April, 1990 |
+| Birth         | XXth, April, 1XXX |
 | Languages     | [Node.js](http://nodejs.org), C/C++, [Python](https://www.python.org/), [Rust](http://www.rust-lang.org/) |
 | Databases     | [MongoDB](https://www.mongodb.com/), [Redis](http://redis.io) |
 | Platforms     | [Linux](https://github.com/torvalds/linux)/[Mac](https://www.apple.com)/Windows |
 | Email         | [yorkiefixer@gmail.com](mailto://yorkiefixer@gmail.com) |
 | Github        | [@yorkie](https://github.com/yorkie) |
 | Twitter       | [@yorkienell](https://twitter.com/yorkienell) |
-| G+            | [+YorkieNeil](https://plus.google.com/+YorkieNeil/posts) |
 | NPM           | [yorkie](https://www.npmjs.org/~yorkie) |
-| Zhihu         | [yorkie](http://www.zhihu.com/people/yorkie) |
 | blog          | [yorkie.ninja](http://yorkie.ninja/) |
 
 ### Working on
