@@ -25,9 +25,8 @@ Yorkie Liu
 
 1. [marcello3d/node-mongolian](https://github.com/marcello3d/node-mongolian/commits?author=yorkie) MongoDB client for Node.js
 2. [marcello3d/node-buffalo](https://github.com/marcello3d/node-buffalo/commits?author=yorkie) BSON parser for Node.js
-3. [joyent/node](https://github.com/joyent/node/commits?author=yorkie) The Node.js
-4. [iojs/io.js](https://github.com/nodejs/io.js/commits?author=yorkie) The IO.js
-4. [libuv/libuv](https://github.com/joyent/libuv/commits?author=yorkie)(c) The event-based framework
+3. [joyent/node](https://github.com/nodejs/node/commits?author=yorkie) The Node.js
+4. [libuv/libuv](https://github.com/libuv/libuv/commits?author=yorkie)(c) The event-based framework
 5. [npm/npm](https://github.com/npm/npm/commits?author=yorkie) The NPM package
 6. [node-inspector/v8-profiler](https://github.com/node-inspector/v8-profiler/commits?author=yorkie)(c++/node) v8 profiling tool for Node.js
 7. [clibs/readline](https://github.com/clibs/readline/commits?author=yorkie)(c) (deprecated) The readline for C
@@ -76,6 +75,7 @@ Yorkie Liu
 * [Hola](http://hola.org/), Israel (2014.7-2014.9)
 * [Pixbi](https://github.com/pixbi), NYC, US (2014.9-2015.3)
 * [51DegreesMobi](https://github.com/51Degreesmobi), Reading, UK (2014.10-Present)
+* [WeFlex](https://github.com/weflex), Shanghai, China (2015.3-Present)
 
 ### AMA(Ask me anything)
 
