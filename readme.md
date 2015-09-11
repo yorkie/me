@@ -12,7 +12,7 @@ Yorkie Liu
 | Github        | [@yorkie](https://github.com/yorkie) |
 | Twitter       | [@yorkienell](https://twitter.com/yorkienell) |
 | NPM           | [yorkie](https://www.npmjs.org/~yorkie) |
-| blog          | [yorkie.ninja](http://yorkie.ninja/) |
+| Site          | [yorkie.ninja](http://yorkie.ninja/) |
 
 ### Working on
 
