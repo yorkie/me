@@ -18,14 +18,14 @@ Yorkie Liu
 
 | Project | description |
 |---------|-------------|
-| [rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
+| [rustjs](https://github.com/yorkie/rust.js)(Private) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
 | [firedoc](https://github.com/fireball-x/firedoc) | API Doc generator rewritten from YUIDoc |
 
 ### Contributions
 
 1. [marcello3d/node-mongolian](https://github.com/marcello3d/node-mongolian/commits?author=yorkie) MongoDB client for Node.js
 2. [marcello3d/node-buffalo](https://github.com/marcello3d/node-buffalo/commits?author=yorkie) BSON parser for Node.js
-3. [joyent/node](https://github.com/nodejs/node/commits?author=yorkie) The Node.js
+3. [nodejs/node](https://github.com/nodejs/node/commits?author=yorkie) The Node.js
 4. [libuv/libuv](https://github.com/libuv/libuv/commits?author=yorkie)(c) The event-based framework
 5. [npm/npm](https://github.com/npm/npm/commits?author=yorkie) The NPM package
 6. [node-inspector/v8-profiler](https://github.com/node-inspector/v8-profiler/commits?author=yorkie)(c++/node) v8 profiling tool for Node.js
