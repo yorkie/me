@@ -81,3 +81,5 @@ Yorkie Liu
 
 If you want to ask me **anything**, go to https://github.com/yorkie/ama, I will put my answers
 publicly. This is inspired by https://github.com/sindresorhus/ama.
+
+BTW, you could also visit https://github.com/yorkie/me/labels/Notes to read what I have noted.
