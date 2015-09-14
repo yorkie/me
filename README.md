@@ -69,6 +69,7 @@ Yorkie Liu
 44. [weflex/markdown-editor-flavored](https://github.com/weflex/markdown-editor-flavored/commits?author=yorkie) a markdown editor just like github flavored editor based on markdown-it
 45. [ewnd9/progress-control](https://github.com/ewnd9/progress-control/commits/master?author=yorkie) node-progress wrapper to control bar from keyboard
 46. [strongloop/strong-remoting](https://github.com/strongloop/strong-remoting/commits?author=yorkie) Communicate between objects in servers, mobile apps, and other servers.
+47. [segmentio/analytics-node](https://github.com/segmentio/analytics-node/commits/master?author=yorkie) The hassle-free way to integrate analytics into any node application.
 
 ### Bussiness Timeline
 
