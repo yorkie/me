@@ -3,8 +3,8 @@ Yorkie Liu
 
 Welcome to Yorkie's landscape, here you would see the following:
 
-- My contributions to Open Source Projects
-- My business working time line
+- My [contributions](#contributions) to Open Source Projects
+- My [business](#bussiness-timeline) working time line
 - My notes/blogs here: [Notes](https://github.com/yorkie/me/labels/Notes)
 
 ### Overview
