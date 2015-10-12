@@ -26,7 +26,6 @@ Welcome to Yorkie's landscape, here you would see the following:
 | Project | description |
 |---------|-------------|
 | [rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
-| [firedoc](https://github.com/fireball-x/firedoc) | API Doc generator rewritten from YUIDoc |
 
 ### Contributions
 
@@ -101,7 +100,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 - [bpkg/bpkg](https://github.com/bpkg/bpkg/commits?author=yorkie)(bash) bash package
 - [bpkg/github](https://github.com/bpkg/github/commits?author=yorkie)(bash) bash-based github tool
 
-#### libetpan
+#### Libetpan with @dinhviethoa
 
 - [dinhviethoa/libetpan](https://github.com/dinhviethoa/libetpan/commits?author=yorkie)(c) An IMAP client in Clang
 - [dinhviethoa/libetpan.node](https://github.com/dinhviethoa/libetpan.node/commits?author=yorkie) A Node.js IMAP client based on [libetpan](https://github.com/dinhviethoa/libetpan)
