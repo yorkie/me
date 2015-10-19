@@ -62,6 +62,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 - [dmcquay/node-apac](https://github.com/dmcquay/node-apac/commits?author=yorkie) The APAC client for Node.js
 - [ewnd9/progress-control](https://github.com/ewnd9/progress-control/commits/master?author=yorkie) node-progress wrapper to control bar from keyboard
 - [segmentio/analytics-node](https://github.com/segmentio/analytics-node/commits/master?author=yorkie) The hassle-free way to integrate analytics into any node application.
+- [michael/github](https://github.com/michael/github/commits/master?author=yorkie) A higher-level wrapper around the Github API. Intended for the browser.
 
 #### MongoDB
 
