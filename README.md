@@ -73,6 +73,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 #### React-native
 
 - [brentvatne/react-native-modal](https://github.com/brentvatne/react-native-modal/commits?author=yorkie) A <Modal /> component for react-native
+- [weflex/react-native-wechat](https://github.com/weflex/react-native-wechat/commits?author=yorkie) React-native(iOS) functionalities includes WeChat login, share, favorite and payment
 
 #### LoopBack
 
