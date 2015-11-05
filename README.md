@@ -26,6 +26,9 @@ Welcome to Yorkie's landscape, here you would see the following:
 | Project | description |
 |---------|-------------|
 | [rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
+| [serve](https://github.com/yorkie/serve) | a tiny server for serving static files and website, no any other runtime required based on mongoose |
+
+Visit [here](https://github.com/yorkie?tab=repositories) to get the complete repositories list.
 
 ### Contributions
 
