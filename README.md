@@ -67,6 +67,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [ewnd9/progress-control](https://github.com/ewnd9/progress-control/commits/master?author=yorkie) node-progress wrapper to control bar from keyboard
 - [segmentio/analytics-node](https://github.com/segmentio/analytics-node/commits/master?author=yorkie) The hassle-free way to integrate analytics into any node application.
 - [michael/github](https://github.com/michael/github/commits/master?author=yorkie) A higher-level wrapper around the Github API. Intended for the browser.
+- [lightsofapollo/superagent-promise](https://github.com/lightsofapollo/superagent-promise/commits/master?author=yorkie) Simple/dumb promise wrapper for superagent. 
 
 #### MongoDB
 
