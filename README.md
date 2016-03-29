@@ -13,7 +13,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 | Property name | value |
 |---------------|-------|
 | Birth         | XXth, April, 1XXX |
-| Languages     | [Node.js](http://nodejs.org), C/C++, [Python](https://www.python.org/), [Rust](http://www.rust-lang.org/) |
+| Languages     | [Node.js](http://nodejs.org), C, [Python](https://www.python.org/), [Rust](http://www.rust-lang.org/) |
 | Databases     | [MongoDB](https://www.mongodb.com/), [Redis](http://redis.io) |
 | Platforms     | [Linux](https://github.com/torvalds/linux)/[Mac](https://www.apple.com)/Windows |
 | Email         | [yorkiefixer@gmail.com](mailto://yorkiefixer@gmail.com) |
@@ -26,7 +26,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 
 | Project | description |
 |---------|-------------|
-| [rustjs](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
+| [rust.js](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
 | [serve](https://github.com/yorkie/serve) | a tiny server for serving static files and website, no any other runtime required based on mongoose |
 
 Visit [here](https://github.com/yorkie?tab=repositories) to get the complete repositories list.
