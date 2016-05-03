@@ -69,6 +69,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [segmentio/analytics-node](https://github.com/segmentio/analytics-node/commits/master?author=yorkie) The hassle-free way to integrate analytics into any node application.
 - [michael/github](https://github.com/michael/github/commits/master?author=yorkie) A higher-level wrapper around the Github API. Intended for the browser.
 - [lightsofapollo/superagent-promise](https://github.com/lightsofapollo/superagent-promise/commits/master?author=yorkie) Simple/dumb promise wrapper for superagent. 
+- [reliablejs/reliable-master](https://github.com/reliablejs/reliable-master/commits?author=yorkie) reliable master
 
 #### MongoDB
 
