@@ -140,7 +140,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 
 ### AMA(Ask me anything)
 
-If you want to ask me **anything**, go to https://github.com/yorkie/ama, I will put my answers
+If you want to ask me _anything_, go to https://github.com/yorkie/ama, I will put my answers
 publicly. This is inspired by https://github.com/sindresorhus/ama.
 
 BTW, you could also visit https://github.com/yorkie/me/labels/Notes to read what I have noted.
