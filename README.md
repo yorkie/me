@@ -70,6 +70,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [michael/github](https://github.com/michael/github/commits/master?author=yorkie) A higher-level wrapper around the Github API. Intended for the browser.
 - [lightsofapollo/superagent-promise](https://github.com/lightsofapollo/superagent-promise/commits/master?author=yorkie) Simple/dumb promise wrapper for superagent. 
 - [reliablejs/reliable-master](https://github.com/reliablejs/reliable-master/commits?author=yorkie) reliable master
+- [cjihrig/will-it-optimize](https://github.com/cjihrig/will-it-optimize/commits?author=yorkie) Suite of tests for determining what v8 will optimize
 
 #### MongoDB
 
