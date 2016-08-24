@@ -79,6 +79,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [lightsofapollo/superagent-promise](https://github.com/lightsofapollo/superagent-promise/commits/master?author=yorkie) Simple/dumb promise wrapper for superagent. 
 - [reliablejs/reliable-master](https://github.com/reliablejs/reliable-master/commits?author=yorkie) reliable master
 - [cjihrig/will-it-optimize](https://github.com/cjihrig/will-it-optimize/commits?author=yorkie) Suite of tests for determining what v8 will optimize
+- [isaacs/natives](https://github.com/isaacs/natives/commits?author=yorkie) Do stuff with Node.js's native JavaScript modules
 
 #### MongoDB
 
@@ -110,6 +111,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [clibs/clib](https://github.com/clibs/clib/commits?author=yorkie)(c) The C library mangement
 - [clibs/readline](https://github.com/clibs/readline/commits?author=yorkie)(c) (deprecated) The readline for C
 - [clibs/net](https://github.com/clibs/net/commits?author=yorkie)(c) The C library supports tls with libuv
+- [clibs/clib-validate](https://github.com/clibs/clib-validate/commits?author=yorkie)(c) clib(1) plugin for validating a package.json
 - [luna/luna](https://github.com/luna/luna/commits?author=yorkie)(c) A language writtern by @tj
 - [jwerle/fs.c](https://github.com/jwerle/fs.c/commits?author=yorkie)(c) 
 
