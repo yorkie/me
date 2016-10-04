@@ -80,6 +80,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [reliablejs/reliable-master](https://github.com/reliablejs/reliable-master/commits?author=yorkie) reliable master
 - [cjihrig/will-it-optimize](https://github.com/cjihrig/will-it-optimize/commits?author=yorkie) Suite of tests for determining what v8 will optimize
 - [isaacs/natives](https://github.com/isaacs/natives/commits?author=yorkie) Do stuff with Node.js's native JavaScript modules
+- [agnat/node_mdns](https://github.com/agnat/node_mdns/commits?author=yorkie) mdns/zeroconf/bonjour service discovery add-on for node.js
 
 #### MongoDB
 
