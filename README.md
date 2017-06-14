@@ -28,6 +28,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 |---------|-------------|
 | [rust.js](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform, which is implemented in Rust, More safe and high performance |
 | [serve](https://github.com/yorkie/serve) | a tiny server for serving static files and website, no any other runtime required based on mongoose |
+| [watjs](https://github.com/yorkie/watjs) | Write WebAssembly Text Format Files(.wat) in JavaScript |
 
 Visit [here](https://github.com/yorkie?tab=repositories) to get the complete repositories list.
 
