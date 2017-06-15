@@ -20,7 +20,6 @@ Welcome to Yorkie's landscape, here you would see the following:
 | Github        | [@yorkie](https://github.com/yorkie) |
 | Twitter       | [@yorkienell](https://twitter.com/yorkienell) |
 | NPM           | [yorkie](https://www.npmjs.org/~yorkie) |
-| Site          | [yorkie.ninja](http://yorkie.ninja/) |
 
 ### Working on mainly
 
@@ -28,6 +27,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 |---------|-------------|
 | [rust.js](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform in Rust |
 | [watjs](https://github.com/yorkie/watjs) | Write WebAssembly Text Format Files(.wat) in JavaScript |
+| [react-native-wechat](https://github.com/yorkie/react-native-wechat) | React-native functionalities includes WeChat login, share, favorite and payment |
 
 Visit [here](https://github.com/yorkie?tab=repositories) to get the complete repositories list.
 
@@ -82,6 +82,12 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [isaacs/natives](https://github.com/isaacs/natives/commits?author=yorkie) Do stuff with Node.js's native JavaScript modules
 - [agnat/node_mdns](https://github.com/agnat/node_mdns/commits?author=yorkie) mdns/zeroconf/bonjour service discovery add-on for node.js
 
+
+#### Machine Learning
+
+- [TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Ayorkie%20) a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.
+- [rhdunn/espeak](https://github.com/rhdunn/espeak/commits?author=yorkie) an open source speech synthesizer that supports 99 languages and accents.
+
 #### MongoDB
 
 - [marcello3d/node-mongolian](https://github.com/marcello3d/node-mongolian/commits?author=yorkie) MongoDB client for Node.js
@@ -91,7 +97,6 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 #### React-native
 
 - [brentvatne/react-native-modal](https://github.com/brentvatne/react-native-modal/commits?author=yorkie) A <Modal /> component for react-native
-- [weflex/react-native-wechat](https://github.com/weflex/react-native-wechat/commits?author=yorkie) React-native(iOS) functionalities includes WeChat login, share, favorite and payment
 
 #### LoopBack
 
@@ -142,10 +147,6 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 #### Hashkell
 
 - [pixbi/duplo](https://github.com/pixbi/duplo/commits/master?author=yorkie) A opinionated, framework-less build tool for web applications
-
-#### Machine Learning
-
-- [TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Ayorkie%20) a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.
 
 ### Bussiness Timeline
 
