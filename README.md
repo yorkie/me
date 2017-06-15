@@ -143,6 +143,10 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 
 - [pixbi/duplo](https://github.com/pixbi/duplo/commits/master?author=yorkie) A opinionated, framework-less build tool for web applications
 
+#### Machine Learning
+
+- [TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Ayorkie%20) a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.
+
 ### Bussiness Timeline
 
 * [Hola](http://hola.org/), Israel (2014.7-2014.9)
