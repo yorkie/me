@@ -47,7 +47,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 |------------|-------------|---------|
 | [nodejs/node](https://github.com/nodejs/node) | The Node.js repository    | [commits](https://github.com/nodejs/node/commits?author=yorkie) |
 | [libuv/libuv](https://github.com/libuv/libuv) | The event-based framework | [commits](https://github.com/libuv/libuv/commits?author=yorkie) |
-| [npmjs/npm](https://github.com/npmjs/npm)     | The NPM package           | [commits](https://github.com/npmjs/npm/commits?author=yorkie) |
+| [npm/npm](https://github.com/npmjs/npm)       | The NPM package           | [commits](https://github.com/npm/npm/commits?author=yorkie) |
 
 #### Node.js Ecosystem
 
