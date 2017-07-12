@@ -21,13 +21,14 @@ Welcome to Yorkie's landscape, here you would see the following:
 | Twitter       | [@yorkienell](https://twitter.com/yorkienell) |
 | NPM           | [yorkie](https://www.npmjs.org/~yorkie) |
 
-### Working on mainly
+### Side Projects
 
 | Project | description |
 |---------|-------------|
 | [rust.js](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform in Rust |
 | [watjs](https://github.com/yorkie/watjs) | Write WebAssembly Text Format Files(.wat) in JavaScript |
 | [react-native-wechat](https://github.com/yorkie/react-native-wechat) | React-native functionalities includes WeChat login, share, favorite and payment |
+| [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) | The Node.js binding for Tensorflow C APIs. |
 
 Visit [here](https://github.com/yorkie?tab=repositories) to get the complete repositories list.
 
