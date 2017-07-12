@@ -13,8 +13,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 | Property name | value |
 |---------------|-------|
 | Birth         | XXth, April, 1XXX |
-| Languages     | [Node.js](http://nodejs.org), C, [Python](https://www.python.org/), [Rust](http://www.rust-lang.org/) |
-| Databases     | [MongoDB](https://www.mongodb.com/), [Redis](http://redis.io) |
+| Languages     | [Node.js](http://nodejs.org), C/C++ |
 | Platforms     | [Linux](https://github.com/torvalds/linux)/[Mac](https://www.apple.com)/Windows |
 | Email         | [yorkiefixer@gmail.com](mailto://yorkiefixer@gmail.com) |
 | Github        | [@yorkie](https://github.com/yorkie) |
@@ -25,10 +24,10 @@ Welcome to Yorkie's landscape, here you would see the following:
 
 | Project | description |
 |---------|-------------|
+| [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) | The Node.js binding for Tensorflow C APIs. |
+| [react-native-wechat](https://github.com/yorkie/react-native-wechat) | React-native functionalities includes WeChat login, share, favorite and payment |
 | [rust.js](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform in Rust |
 | [watjs](https://github.com/yorkie/watjs) | Write WebAssembly Text Format Files(.wat) in JavaScript |
-| [react-native-wechat](https://github.com/yorkie/react-native-wechat) | React-native functionalities includes WeChat login, share, favorite and payment |
-| [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) | The Node.js binding for Tensorflow C APIs. |
 
 Visit [here](https://github.com/yorkie?tab=repositories) to get the complete repositories list.
 
