@@ -157,7 +157,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 * [Pixbi](https://github.com/pixbi), NYC, US (2014.9-2015.3)
 * [51DegreesMobi](https://github.com/51Degreesmobi), Reading, UK (2014.10-2016.5)
 * [WeFlex](https://github.com/weflex), Shanghai, China (2015.3-2016.7)
-* [Alibaba](https://github.com/alibaba), Hangzhou, China (2016.10-Present)
+* [Alibaba Group](https://github.com/alibaba), Hangzhou, China (2016.10-2017.8)
 
 ### AMA(Ask me anything)
 
