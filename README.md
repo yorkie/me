@@ -101,6 +101,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
   - [evilstreak/markdown-js](https://github.com/evilstreak/markdown-js/commits?author=yorkie) markdown tool in JavaScript
   - [weflex/markdown-editor-flavored](https://github.com/weflex/markdown-editor-flavored/commits?author=yorkie) a markdown editor just like github flavored editor based on markdown-it
   - [museui/muse-ui](https://github.com/museui/muse-ui/commits?author=yorkie) Material Design UI library for Vuejs 2.0
+  - [BensonDu/vue-directive-touch](https://github.com/BensonDu/vue-directive-touch/commits?author=yorkie) Vue touch directive
   
 - **Testing**
   - [rvagg/servertest](https://github.com/rvagg/servertest/commits?author=yorkie)
