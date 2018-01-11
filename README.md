@@ -148,7 +148,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 
 - [django/django](https://github.com/django/django/commits/master?author=yorkie)(python) The web framework Django
 
-#### Hashkell
+#### Haskell
 
 - [pixbi/duplo](https://github.com/pixbi/duplo/commits/master?author=yorkie) A opinionated, framework-less build tool for web applications
 
