@@ -24,6 +24,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 
 | Project | description |
 |---------|-------------|
+| [ShadowNode](https://github.com/Rokid/ShadowNode) | Use Node.js in your embeddable devices |
 | [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) | The Node.js binding for Tensorflow C APIs. |
 | [react-native-wechat](https://github.com/yorkie/react-native-wechat) | React-native functionalities includes WeChat login, share, favorite and payment |
 | [rust.js](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform in Rust |
