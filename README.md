@@ -153,7 +153,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 
 - [pixbi/duplo](https://github.com/pixbi/duplo/commits/master?author=yorkie) A opinionated, framework-less build tool for web applications
 
-### Bussiness Timeline
+### Business Timeline
 
 * [Hola](http://hola.org/), Israel (2014.7-2014.9)
 * [Pixbi](https://github.com/pixbi), NYC, US (2014.9-2015.3)
