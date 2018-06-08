@@ -113,6 +113,10 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
   - [brentvatne/react-native-modal](https://github.com/brentvatne/react-native-modal/commits?author=yorkie) A <Modal /> component for react-native
   - [fireball-x/editor-framework](https://github.com/fireball-x/editor-framework/commits?author=yorkie) A framework gives you power to easily write professional multi-panel desktop software in HTML5 and io.js.
 
+#### Embeddable Programming
+
+- [Samsung/iotjs](https://github.com/Samsung/iotjs) Platform for Internet of Things with JavaScript
+
 #### Machine Learning
 
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/commits?author=yorkie) Computation using data flow graphs for scalable machine learning
