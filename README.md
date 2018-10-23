@@ -12,7 +12,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 
 | Property name | value |
 |---------------|-------|
-| Birth         | XXth, April, 1XXX |
+| Birth         | XXth, April, 19XX |
 | Languages     | [Node.js](http://nodejs.org), C/C++ |
 | Platforms     | [Linux](https://github.com/torvalds/linux)/[Mac](https://www.apple.com)/Windows |
 | Email         | [yorkiefixer@gmail.com](mailto://yorkiefixer@gmail.com) |
