@@ -4,7 +4,7 @@ Yorkie Liu
 Welcome to Yorkie's landscape, here you would see the following:
 
 - My [contributions](#contributions) to Open Source Projects
-- My [business](#bussiness-timeline) working time line
+- My [business](#business-timeline) working time line
 - My notes/blogs here: [Notes](https://github.com/yorkie/me/labels/Notes)
 - My diaries here: [Diary](https://github.com/yorkie/me/labels/Diary)
 
