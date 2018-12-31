@@ -69,7 +69,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
   
 - **Streaming**
   - [stream-utils/hash-stream](https://github.com/stream-utils/hash-stream/commits?author=yorkie) a simple hash stream for Node.js
-  
+
 - **Utility**
   - [component/type](https://github.com/component/type/commits?author=yorkie) a type utilities for Node.js
   - [component/mutate](https://github.com/component/mutate/commits?author=yorkie)
@@ -113,9 +113,10 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
   - [brentvatne/react-native-modal](https://github.com/brentvatne/react-native-modal/commits?author=yorkie) A <Modal /> component for react-native
   - [fireball-x/editor-framework](https://github.com/fireball-x/editor-framework/commits?author=yorkie) A framework gives you power to easily write professional multi-panel desktop software in HTML5 and io.js.
 
-#### Embeddable Programming
+#### Embedded Operating System
 
-- [Samsung/iotjs](https://github.com/Samsung/iotjs) Platform for Internet of Things with JavaScript
+- [openwrt/openwrt](https://github.com/openwrt/openwrt/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Ayorkie+) The buildsystem for the OpenWrt Linux distribution.
+- [Samsung/iotjs](https://github.com/Samsung/iotjs) Platform for Internet of Things with JavaScript.
 
 #### Machine Learning
 
