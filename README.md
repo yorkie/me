@@ -4,7 +4,7 @@ Yorkie Liu
 Welcome to Yorkie's landscape, here you would see the following:
 
 - My [contributions](#contributions) to Open Source Projects
-- My [business](#business-timeline) working time line
+- My [business](#work-experience) working time line
 - My notes/blogs here: [Notes](https://github.com/yorkie/me/labels/Notes)
 - My diaries here: [Diary](https://github.com/yorkie/me/labels/Diary)
 
@@ -13,7 +13,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 | Property name | value |
 |---------------|-------|
 | Birth         | XXth, April, 1XXX |
-| Languages     | [Node.js](http://nodejs.org), C/C++ |
+| Languages     | [Node.js](http://nodejs.org), C |
 | Platforms     | [Linux](https://github.com/torvalds/linux)/[Mac](https://www.apple.com)/Windows |
 | Email         | [yorkiefixer@gmail.com](mailto://yorkiefixer@gmail.com) |
 | Github        | [@yorkie](https://github.com/yorkie) |
@@ -24,7 +24,7 @@ Welcome to Yorkie's landscape, here you would see the following:
 
 | Project | description |
 |---------|-------------|
-| [ShadowNode](https://github.com/Rokid/ShadowNode) | Use Node.js in your embeddable devices |
+| [ShadowNode](https://github.com/yodaos-project/ShadowNode) | Use Node.js in your embeddable devices |
 | [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) | The Node.js binding for Tensorflow C APIs. |
 | [react-native-wechat](https://github.com/yorkie/react-native-wechat) | React-native functionalities includes WeChat login, share, favorite and payment |
 | [rust.js](https://github.com/yorkie/rust.js) | NPM and Node.js compatible backend JavaScript platform in Rust |
