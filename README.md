@@ -162,14 +162,14 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 
 - [pixbi/duplo](https://github.com/pixbi/duplo/commits/master?author=yorkie) A opinionated, framework-less build tool for web applications
 
-### Business Timeline
+### Work Experience
 
 * [Hola](http://hola.org/), Israel (2014.7-2014.9)
 * [Pixbi](https://github.com/pixbi), NYC, US (2014.9-2015.3)
 * [51DegreesMobi](https://github.com/51Degreesmobi), Reading, UK (2014.10-2016.5)
 * [WeFlex](https://github.com/weflex), Shanghai, China (2015.3-2016.7)
 * [Alibaba Group](https://github.com/alibaba), Hangzhou, China (2016.10-2017.8)
-* [Rokid](https://github.com/Rokid), Hangzhou, China (2017.8-Present)
+* [Rokid](https://github.com/Rokid), Hangzhou, China (2017.8-2019.10)
 
 ### AMA(Ask me anything)
 
