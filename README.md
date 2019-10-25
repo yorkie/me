@@ -162,6 +162,10 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 
 - [pixbi/duplo](https://github.com/pixbi/duplo/commits/master?author=yorkie) A opinionated, framework-less build tool for web applications
 
+#### Web Spec
+
+- [WebBluetoothCG/web-bluetooth](https://github.com/WebBluetoothCG/web-bluetooth/commits?author=yorkie) Bluetooth support for the Web.
+
 ### Work Experience
 
 * [Hola](http://hola.org/), Israel (2014.7-2014.9)
