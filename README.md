@@ -121,6 +121,7 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 #### Standards & Proposals
 
 - [tc39/proposal-hashbang](https://github.com/tc39/proposal-hashbang/commits?author=yorkie) #! for JS https://tc39.github.io/proposal-hashbang/out.html
+- [WebBluetoothCG/web-bluetooth](https://github.com/WebBluetoothCG/web-bluetooth/commits?author=yorkie) Bluetooth support for the Web.
 
 #### Machine Learning
 
