@@ -150,6 +150,10 @@ Visit [here](https://github.com/yorkie?tab=repositories) to get the complete rep
 - [dinhviethoa/libetpan.node](https://github.com/dinhviethoa/libetpan.node/commits?author=yorkie) A Node.js IMAP client based on [libetpan](https://github.com/dinhviethoa/libetpan)
 - [MailCore/mailcore.node](https://github.com/MailCore/mailcore.node/commits/master?author=yorkie) The mailcore for Node.js
 
+#### Rust
+
+- [alixinne/glsl-lang](https://github.com/alixinne/glsl-lang/commits?author=yorkie) LALR parser for GLSL
+
 #### Golang
 
 - [docker/docker](https://github.com/docker/docker/commits?author=yorkie)(Golang) docker container
